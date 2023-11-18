@@ -10,8 +10,8 @@ interface ButtonProps {
 const Button = ({ type, title, icon, variant }: ButtonProps) => {
 	return (
 		<button
-			className='flex cursor-pointer bg-black text-neutral-50 py-3 items-center px-4 rounded-lg'
-			type={type}>
+			type={type}
+			className={`flexCenter gap-3 rounded-full border ${variant}`}>
 			{icon && (
 				<Image
 					src={icon}
@@ -20,7 +20,7 @@ const Button = ({ type, title, icon, variant }: ButtonProps) => {
 					height={24}
 				/>
 			)}
-			<label>{title}</label>
+			<label className='bold-16 whitespace-nowrap'>{title}</label>
 		</button>
 	);
 };
