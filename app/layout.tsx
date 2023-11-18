@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+import "./globals.css";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
 	title: "Diani Travel Guide",
 	description:
-		"Looking to Holiday in Diani? Well look no further for all the information you Need. Sights, Nights, Food, Culture, Diani beach, Shimba Hills, Hotels and more...",
+		"Looking to Holiday in Diani? Well look no further for all the information you Need. Sights, Nights, Food, Culture, Diani beach, Shimba Hills, Hotels and more.. Website built by Ricky Matthews Githinji",
 };
 
 export default function RootLayout({
@@ -17,7 +17,12 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang='en'>
-			<body className={inter.className}>{children}</body>
+			<body>
+				<Navbar />
+				<main className='relative overflow-hidden'>{children}</main>
+
+				<Footer />
+			</body>
 		</html>
 	);
 }
