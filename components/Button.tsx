@@ -9,7 +9,9 @@ interface ButtonProps {
 
 const Button = ({ type, title, icon, variant }: ButtonProps) => {
 	return (
-		<button type={type}>
+		<button
+			className='flex cursor-pointer'
+			type={type}>
 			{icon && (
 				<Image
 					src={icon}
@@ -18,6 +20,7 @@ const Button = ({ type, title, icon, variant }: ButtonProps) => {
 					height={24}
 				/>
 			)}
+			<label>{title}</label>
 		</button>
 	);
 };
