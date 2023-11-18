@@ -10,7 +10,7 @@ interface ButtonProps {
 const Button = ({ type, title, icon, variant }: ButtonProps) => {
 	return (
 		<button
-			className='flex cursor-pointer'
+			className='flex cursor-pointer bg-black text-neutral-50 py-3 items-center px-4 rounded-lg'
 			type={type}>
 			{icon && (
 				<Image
