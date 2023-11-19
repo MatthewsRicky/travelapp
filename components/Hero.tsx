@@ -11,6 +11,30 @@ const Hero = () => {
 					height={50}
 					className='absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]'
 				/>
+				<h1 className='bold-52 lg:bold-88'>Diani Beach Travel Guide</h1>
+				<p className='regular-16 mt-6 text-gray-30 xl:max-w-[520px]'>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+					hic repudiandae sit, dolorum maiores, mollitia perferendis, deleniti
+					officiis optio aperiam dignissimos soluta blanditiis! Sint architecto
+					nobis consequatur dicta quia laboriosam sapiente accusantium
+					voluptates totam quasi ab recusandae voluptas inventore possimus, quae
+					id ea sed? Aperiam alias placeat dolore quisquam beatae.
+				</p>
+
+				<div className='my-11 flex flex-wrap gap-5'>
+					<div className='flex items-center gap-2'>
+						{Array(5)
+							.fill(1)
+							.map((_, index) => (
+								<Image
+									src='/star.svg'
+									alt='star'
+									width={24}
+									height={24}
+								/>
+							))}
+					</div>
+				</div>
 			</div>
 		</section>
 	);
