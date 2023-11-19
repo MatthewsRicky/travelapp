@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Button from "./Button";
 const Hero = () => {
 	return (
 		<section className='max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row'>
@@ -42,6 +43,19 @@ const Hero = () => {
 							Excellent Reviews
 						</span>
 					</p>
+				</div>
+				<div className='flex w-full gap-3 sm:flex-row'>
+					<Button
+						type='button'
+						title='Download App'
+						variant='btn_green'
+					/>
+
+					<Button
+						type='button'
+						title='How We work'
+						variant='btn_white_text'
+					/>
 				</div>
 			</div>
 		</section>
