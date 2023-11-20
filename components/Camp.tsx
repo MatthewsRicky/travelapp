@@ -79,6 +79,13 @@ const Camp = () => {
 						itaque aspernatur, illo delectus quis ratione architecto eveniet
 						natus quod nobis? Itaque.
 					</p>
+					<Image
+						src='/quote.svg'
+						alt='camp-2'
+						width={186}
+						height={186}
+						className='camp-quote'
+					/>
 				</div>
 			</div>
 		</section>
