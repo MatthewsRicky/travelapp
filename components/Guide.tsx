@@ -40,11 +40,11 @@ const Guide = () => {
 				<div className='absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20'>
 					<div className='flexBetween flex-col'>
 						<div className='flex flex-col w-full'>
-							<div className='flexBetween w-full'>
-								<p>Destination</p>
-								<p>48 mins</p>
+							<div className='flexBetween gap-3 w-full'>
+								<p className='regular-16 text-gray-20'>Destination</p>
+								<p className='bold-16 text-green-50'>48 mins</p>
 							</div>
-							<p>Kongo River</p>
+							<p className='bold-20 mt-2'>Kongo River</p>
 						</div>
 					</div>
 				</div>
