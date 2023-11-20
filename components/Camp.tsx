@@ -61,7 +61,14 @@ const Camp = () => {
 					subtitle='ChillSpot'
 					peopleJoined='50+ joined'
 				/>
+				<CampSite
+					backgroundImage='bg-bg-img-2'
+					title='Tribearth'
+					subtitle='Vegan restaurant and jewelry store'
+					peopleJoined='50+ joined'
+				/>
 			</div>
+			<div className='flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6'></div>
 		</section>
 	);
 };
