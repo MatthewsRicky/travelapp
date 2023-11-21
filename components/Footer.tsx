@@ -1,3 +1,4 @@
+import { FOOTER_LINKS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -17,9 +18,28 @@ const Footer = () => {
 							height={29}
 						/>
 					</Link>
+					<div className='flex flex-wrap gap-10 sm:justify-between md:flex-1'>
+						{FOOTER_LINKS.map((columns) => (
+							<FooterColumn title={columns.title}>Footer</FooterColumn>
+						))}
+					</div>
 				</div>
 			</div>
 		</footer>
+	);
+};
+
+type FooterColumnProps = {
+	title: string;
+	children: React.ReactNode;
+};
+
+const FooterColumn = ({ title, children }: FooterColumnProps) => {
+	return (
+		<div>
+			<h4>{title}</h4>
+			{children}
+		</div>
 	);
 };
 
