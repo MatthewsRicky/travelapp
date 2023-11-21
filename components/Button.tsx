@@ -5,13 +5,16 @@ interface ButtonProps {
 	title: string;
 	icon?: string;
 	variant: string;
+	full?: boolean;
 }
 
-const Button = ({ type, title, icon, variant }: ButtonProps) => {
+const Button = ({ type, title, icon, variant, full }: ButtonProps) => {
 	return (
 		<button
 			type={type}
-			className={`flexCenter gap-3 rounded-full border ${variant} shadow-lg`}>
+			className={`flexCenter gap-3 rounded-full border ${variant} ${
+				full && "w-full"
+			}shadow-lg`}>
 			{icon && (
 				<Image
 					src={icon}
