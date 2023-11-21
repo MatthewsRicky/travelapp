@@ -23,7 +23,9 @@ const Button = ({ type, title, icon, variant, full }: ButtonProps) => {
 					height={24}
 				/>
 			)}
-			<label className='bold-16 whitespace-nowrap'>{title}</label>
+			<label className='bold-16 whitespace-nowrap cursor-pointer'>
+				{title}
+			</label>
 		</button>
 	);
 };
