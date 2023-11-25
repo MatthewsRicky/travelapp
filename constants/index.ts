@@ -5,7 +5,7 @@ export const NAV_LINKS = [
 	{ href: "/", key: "Bars and Nightlife", label: "Bars and Nightlife" },
 	{ href: "/", key: "Food", label: "Food" },
 	{ href: "/", key: "Events", label: "Events" },
-	{ href: "/", key: "Events", label: "Events" },
+	{ href: "/", key: "Wellness", label: "Wellness" },
 ];
 
 // CAMP SECTION
