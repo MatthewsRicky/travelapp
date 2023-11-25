@@ -15,7 +15,7 @@ const Navbar = () => {
 					height={29}
 				/>
 			</Link>
-			<ul className='hidden h-full gap-12 lg:flex'>
+			<ul className='hidden h-full gap-12 lg:flex sm:flex-wrap sm:justify-center'>
 				{NAV_LINKS.map((link) => (
 					<Link
 						href={link.href}
