@@ -6,6 +6,7 @@ export const NAV_LINKS = [
 	{ href: "/", key: "Food", label: "Food" },
 	{ href: "/", key: "Events", label: "Events" },
 	{ href: "/", key: "Wellness", label: "Wellness" },
+	{ href: "/", key: "Diani Directory", label: "Diani Directory" },
 ];
 
 // CAMP SECTION
