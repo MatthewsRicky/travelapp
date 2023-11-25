@@ -8,6 +8,7 @@ export const NAV_LINKS = [
 	{ href: "/", key: "Wellness", label: "Wellness" },
 	{ href: "/", key: "Diani Directory", label: "Diani Directory" },
 	{ href: "/", key: "The Audio X", label: "The Audio X" },
+	{ href: "/", key: "My Living List", label: "My Living List" },
 ];
 
 // CAMP SECTION
