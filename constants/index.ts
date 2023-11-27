@@ -6,8 +6,6 @@ export const NAV_LINKS = [
 
 	{ href: "/", key: "Blog", label: "Blog" },
 
-	{ href: "/", key: "Events", label: "Events" },
-
 	{ href: "/", key: "Diani Directory", label: "Diani Directory" },
 ];
 
@@ -17,6 +15,7 @@ export const SIDEBAR_LINKS = [
 	{ href: "/", key: "The Audio X", label: "The Audio X" },
 	{ href: "/", key: "My Living List", label: "My Living List" },
 	{ href: "/", key: "Food", label: "Food" },
+	{ href: "/", key: "Events", label: "Events" },
 	{ href: "/", key: "Bars and Nightlife", label: "Bars and Nightlife" },
 ];
 
