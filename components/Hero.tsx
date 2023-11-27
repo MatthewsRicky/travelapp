@@ -15,13 +15,9 @@ const Hero = () => {
 					className='absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]'
 				/>
 				<h1 className='bold-52 lg:bold-88'>Diani Beach Podcast</h1>
-				<p className='regular-16 mt-6 text-gray-30 xl:max-w-[520px]'>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-					hic repudiandae sit, dolorum maiores, mollitia perferendis, deleniti
-					officiis optio aperiam dignissimos soluta blanditiis! Sint architecto
-					nobis consequatur dicta quia laboriosam sapiente accusantium
-					voluptates totam quasi ab recusandae voluptas inventore possimus, quae
-					id ea sed? Aperiam alias placeat dolore quisquam beatae.
+				<p className='regular-32 mt-6 text-gray-30 xl:max-w-[520px]'>
+					Diani Beach Podcast is the ultra-shareable, uber-cool online guide to
+					things to do in Diani Beach.
 				</p>
 
 				<div className='my-11 flex flex-wrap gap-5'>
@@ -43,19 +39,6 @@ const Hero = () => {
 							Excellent Reviews
 						</span>
 					</p>
-				</div>
-				<div className='flex flex-col w-full gap-3 sm:flex-row'>
-					<Button
-						type='button'
-						title='Download App'
-						variant='btn_green'
-					/>
-
-					<Button
-						type='button'
-						title='How We work'
-						variant='btn_white_text'
-					/>
 				</div>
 			</div>
 			<div className='relative flex flex-1 items-start'>
