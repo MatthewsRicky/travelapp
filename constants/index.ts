@@ -1,15 +1,23 @@
 // NAVIGATION
 export const NAV_LINKS = [
 	{ href: "/", key: "home", label: "Home" },
-	{ href: "/", key: "Things To Do", label: "Things To Do" },
-	{ href: "/", key: "Bars and Nightlife", label: "Bars and Nightlife" },
-	{ href: "/", key: "Food", label: "Food" },
+
+	{ href: "/", key: "About", label: "About" },
+
+	{ href: "/", key: "Blog", label: "Blog" },
+
 	{ href: "/", key: "Events", label: "Events" },
-	{ href: "/", key: "Wellness", label: "Wellness" },
+
 	{ href: "/", key: "Diani Directory", label: "Diani Directory" },
+];
+
+export const SIDEBAR_LINKS = [
+	{ href: "/", key: "Things To Do", label: "Things To Do" },
+	{ href: "/", key: "Wellness", label: "Wellness" },
 	{ href: "/", key: "The Audio X", label: "The Audio X" },
 	{ href: "/", key: "My Living List", label: "My Living List" },
-	{ href: "/", key: "About", label: "About" },
+	{ href: "/", key: "Food", label: "Food" },
+	{ href: "/", key: "Bars and Nightlife", label: "Bars and Nightlife" },
 ];
 
 // CAMP SECTION
