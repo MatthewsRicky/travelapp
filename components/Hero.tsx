@@ -18,27 +18,26 @@ const Hero = () => {
 				Diani Beach Podcast
 			</h1>
 
-			<div className='h-[80vh] relative z-20 flex flex-col sm:flex-row lg:flex-col items-center justify-center my-auto xl:w-1/2'>
-				<div className='relative flex flex-col z-20 h-[50vh] w-[50vw]'>
+			<div className='h-[80vh] relative z-20 flex flex-col gap-6 sm:flex-row lg:flex-col items-center justify-between xl:w-1/2'>
+				<div className='relative flex flex-col z-20'>
 					<Image
 						src='/libosso_profile.webp'
 						alt='Libosso'
-						width={250}
-						height={250}
+						width={200}
+						height={200}
 						className='shadow-lg rounded-full'
 					/>
 				</div>
-				<div className='relative flex flex-1 bg-blue-200/40'>
+				<div className='relative flex flex-col bg-blue-200/40'>
 					<div className='justify-between items-center relative flex z-20 w-72 flex-col gap-8 px-7 py-3 shadow-2xl'>
 						<p className='bold-24 px-4 py-6 rounded-md mt-6 text-center bg-blue-700/70 text-blue-200 shadow-lg xl:max-w-[520px]'>
 							Diani Beach Podcast is the ultra-shareable, uber-cool online guide
 							to things to do in Diani Beach.
 						</p>
-						<span>
-							<p className='text-lg font-semibold text-blue-800'>
-								Contributor: Vincent Embukane Liboso
-							</p>
-						</span>
+
+						<p className='text-lg font-semibold text-blue-800'>
+							Contributor: Vincent Embukane Liboso
+						</p>
 					</div>
 				</div>
 			</div>
