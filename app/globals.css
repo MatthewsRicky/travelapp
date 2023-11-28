@@ -14,6 +14,22 @@ body {
 	font-family: Roboto;
 }
 
+.video-background {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+}
+
+video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
 @layer utilities {
 	.btn_white {
 		@apply border-white bg-white px-8 py-3 text-green-50;
