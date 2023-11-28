@@ -5,6 +5,15 @@ import Button from "./Button";
 const Hero = () => {
 	return (
 		<section className='max-container video-background padding-container flex md:flex-row flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row'>
+			<video
+				autoPlay
+				loop
+				muted>
+				<source
+					src='video.mp4'
+					type='video/mp4'
+				/>
+			</video>
 			<div className='w-[50vw]'>
 				<Image
 					src='/libosso_profile.webp'
