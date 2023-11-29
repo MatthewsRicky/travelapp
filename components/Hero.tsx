@@ -4,7 +4,7 @@ import Image from "next/image";
 import Button from "./Button";
 const Hero = () => {
 	return (
-		<section className='max-container video-background padding-container flex flex-col lg:flex-row gap-20 py-10 pb-32 md:gap-28 lg:py-20 overflow-y-scroll'>
+		<section className='max-container video-background padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 overflow-y-scroll'>
 			<video
 				autoPlay
 				loop
@@ -18,7 +18,7 @@ const Hero = () => {
 				Diani Beach Podcast
 			</h1>
 
-			<div className='h-[80vh] relative z-20 flex flex-col gap-6 sm:flex-row lg:flex-col items-center justify-between xl:w-1/2'>
+			<div className='relative z-20 flex gap-6 flex-row items-center justify-around'>
 				<div className='relative flex flex-col z-20'>
 					<Image
 						src='/libosso_profile.webp'
