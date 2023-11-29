@@ -13,8 +13,6 @@ const Navbar = () => {
 	const handleMenuClick = () => {
 		if (!menuOpen) {
 			setMenuOpen(true);
-		} else {
-			setMenuOpen(false);
 		}
 	};
 
@@ -42,7 +40,7 @@ const Navbar = () => {
 					</Link>
 				))}
 			</ul>
-			<div className='lg:flexCenter hidden'>
+			<div className='md:flexCenter hidden'>
 				<Button
 					type='button'
 					title='Contributer'
@@ -55,7 +53,7 @@ const Navbar = () => {
 				alt='menu'
 				width={28}
 				height={28}
-				className='inline-block cursor-pointer lg:hidden'
+				className='inline-block cursor-pointer md:hidden'
 				onClick={handleMenuClick}
 			/>
 		</nav>
