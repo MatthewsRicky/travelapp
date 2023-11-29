@@ -10,7 +10,7 @@ import { useState } from "react";
 const Navbar = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
 
-	const handleMenuClick = () => {
+	const handleMenuOpen = () => {
 		if (!menuOpen) {
 			setMenuOpen(true);
 		}
@@ -54,7 +54,7 @@ const Navbar = () => {
 				width={28}
 				height={28}
 				className='inline-block cursor-pointer md:hidden'
-				onClick={handleMenuClick}
+				onClick={handleMenuOpen}
 			/>
 		</nav>
 	);
