@@ -53,7 +53,9 @@ const Navbar = () => {
 				alt='menu'
 				width={28}
 				height={28}
-				className='inline-block cursor-pointer md:hidden'
+				className={`${
+					!menuOpen ? "inline-block cursor-pointer md:hidden" : "hidden"
+				}`}
 				onClick={handleMenuOpen}
 			/>
 		</nav>
