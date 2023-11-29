@@ -10,6 +10,14 @@ import { useState } from "react";
 const Navbar = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
 
+	const handleMenuClick = () => {
+		if (!menuOpen) {
+			setMenuOpen(true);
+		} else {
+			setMenuOpen(false);
+		}
+	};
+
 	return (
 		<nav className=' flex justify-between max-container padding-container relative z-30 py-5'>
 			<Link href='/'>
@@ -20,7 +28,12 @@ const Navbar = () => {
 					height={29}
 				/>
 			</Link>
-			<ul className='hidden h-full gap-12 lg:flex sm:flex-wrap sm:justify-center bg-blue-300'>
+			<ul
+				className={`${
+					!menuOpen
+						? "hidden"
+						: "flex h-full gap-12 lg:flex sm:flex-wrap sm:justify-center bg-blue-300"
+				}`}>
 				{NAV_LINKS.map((link) => (
 					<Link
 						href={link.href}
@@ -40,9 +53,10 @@ const Navbar = () => {
 			<Image
 				src='menu.svg'
 				alt='menu'
-				width={32}
-				height={32}
+				width={28}
+				height={28}
 				className='inline-block cursor-pointer lg:hidden'
+				onClick={handleMenuClick}
 			/>
 		</nav>
 	);
