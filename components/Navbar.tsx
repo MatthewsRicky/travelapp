@@ -1,10 +1,15 @@
+"use client";
+
 import { NAV_LINKS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 
 import Button from "./Button";
+import { useState } from "react";
 
 const Navbar = () => {
+	const [menuOpen, setMenuOpen] = useState(false);
+
 	return (
 		<nav className=' flex justify-between max-container padding-container relative z-30 py-5'>
 			<Link href='/'>
