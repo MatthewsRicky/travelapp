@@ -18,13 +18,13 @@ const Hero = () => {
 				Diani Beach Podcast
 			</h1>
 
-			<div className='relative z-20 flex gap-6 flex-row items-center justify-around'>
+			<div className='relative z-20 flex gap-6 flex-row items-center mb-20 justify-around'>
 				<div className='relative flex flex-col z-20'>
 					<Image
 						src='/libosso_profile.webp'
 						alt='Libosso'
-						width={200}
-						height={200}
+						width={300}
+						height={300}
 						className='shadow-lg rounded-full'
 					/>
 				</div>
