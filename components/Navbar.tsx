@@ -58,6 +58,20 @@ const Navbar = () => {
 				}`}
 				onClick={handleMenuOpen}
 			/>
+			<ul
+				className={`${
+					!menuOpen
+						? "hidden"
+						: "flex h-full gap-12 lg:flex sm:flex-wrap sm:justify-center bg-blue-300"
+				}`}>
+				{NAV_LINKS.map((link) => (
+					<Link
+						href={link.href}
+						key={link.key}>
+						{link.label}
+					</Link>
+				))}
+			</ul>
 		</nav>
 	);
 };
