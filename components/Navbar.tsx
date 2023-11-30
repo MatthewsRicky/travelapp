@@ -62,7 +62,7 @@ const Navbar = () => {
 				className={`${
 					!menuOpen
 						? "hidden"
-						: "flex h-full gap-12 lg:flex sm:flex-wrap sm:justify-center bg-blue-300"
+						: "flex flex-col h-full gap-12 lg:flex sm:flex-wrap sm:justify-center bg-blue-300"
 				}`}>
 				{NAV_LINKS.map((link) => (
 					<Link
