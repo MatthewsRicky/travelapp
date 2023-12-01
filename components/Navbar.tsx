@@ -34,16 +34,18 @@ const Navbar = () => {
 			</Link>
 			<ul
 				className={`${
-					menuOpen
+					!menuOpen
 						? "hidden"
-						: "flex flex-col justify-center items-center h-full gap-12 lg:flex sm:flex-wrap sm:justify-center bg-blue-300"
+						: "flex flex-col sm:flex-row justify-center items-center h-full gap-12 lg:flex sm:flex-wrap sm:justify-center bg-blue-300"
 				}`}>
 				{NAV_LINKS.map((link) => (
-					<Link
-						href={link.href}
-						key={link.key}>
-						{link.label}
-					</Link>
+					<li>
+						<Link
+							href={link.href}
+							key={link.key}>
+							{link.label}
+						</Link>
+					</li>
 				))}
 			</ul>
 			<div className='md:flexCenter hidden'>
