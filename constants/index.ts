@@ -1,4 +1,7 @@
 // NAVIGATION
+
+import { FaUser, FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
+
 export const NAV_LINKS = [
 	{ href: "/", key: "home", label: "Home" },
 
@@ -8,6 +11,8 @@ export const NAV_LINKS = [
 
 	{ href: "/", key: "Diani Directory", label: "Diani Directory" },
 ];
+
+export const ADMIN_ICONS = [FaUser, FaTwitter, FaFacebook, FaInstagram];
 
 export const SIDEBAR_LINKS = [
 	{ href: "/", key: "Things To Do", label: "Things To Do" },
