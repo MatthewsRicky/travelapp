@@ -23,20 +23,15 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className=' flex justify-between max-container padding-container relative z-30 py-5'>
+		<nav className=' flex flexCenter w-full max-container padding-container relative z-30 py-5'>
 			<Link href='/'>
-				<Image
-					src='/hilink-logo.svg'
-					alt='logo'
-					width={74}
-					height={29}
-				/>
+				<span>Diani Beach Podcast</span>
 			</Link>
 			<ul
 				className={`${
 					!menuOpen
-						? "hidden"
-						: "flex flex-col sm:flex-row justify-center items-center h-full gap-12 lg:flex sm:flex-wrap sm:justify-center bg-blue-300"
+						? "absolute flex flex-col sm:flex-row justify-center items-center h-full gap-12 lg:flex sm:flex-wrap sm:justify-center bg-blue-300"
+						: "hidden"
 				}`}>
 				{NAV_LINKS.map((link) => (
 					<li>
