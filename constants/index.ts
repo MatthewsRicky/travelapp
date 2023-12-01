@@ -12,7 +12,12 @@ export const NAV_LINKS = [
 	{ href: "/", key: "Diani Directory", label: "Diani Directory" },
 ];
 
-export const ADMIN_ICONS = [FaUser, FaTwitter, FaFacebook, FaInstagram];
+export const ADMIN_ICONS = [
+	{ icon: FaUser, key: "user" },
+	{ icon: FaTwitter, key: "twitter" },
+	{ icon: FaFacebook, key: "facebook" },
+	{ icon: FaInstagram, key: "instagram" },
+];
 
 export const SIDEBAR_LINKS = [
 	{ href: "/", key: "Things To Do", label: "Things To Do" },
