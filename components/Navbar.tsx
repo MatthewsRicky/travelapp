@@ -31,7 +31,7 @@ const Navbar = () => {
 			</Link>
 			<ul
 				className={`${
-					!menuOpen
+					menuOpen
 						? "hidden sm:flex flex-col sm:flex-row flexBetween h-full gap-12 lg:flex sm:flex-wrap"
 						: "hidden"
 				}`}>
@@ -52,6 +52,7 @@ const Navbar = () => {
 				width={28}
 				height={28}
 				onClick={handleMenuOpen}
+				className='sm:hidden flex relative z-30'
 			/>
 			<Image
 				src='close.svg'
@@ -59,21 +60,8 @@ const Navbar = () => {
 				width={28}
 				height={28}
 				onClick={handleMenuClose}
+				className='sm:hidden'
 			/>
-			<ul
-				className={`${
-					!menuClose
-						? "hidden"
-						: "flex flex-col h-full gap-12 lg:flex sm:flex-wrap sm:justify-center bg-blue-300"
-				}`}>
-				{NAV_LINKS.map((link) => (
-					<Link
-						href={link.href}
-						key={link.key}>
-						{link.label}
-					</Link>
-				))}
-			</ul>
 		</nav>
 	);
 };
