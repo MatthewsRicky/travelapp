@@ -7,6 +7,8 @@ import Link from "next/link";
 import Button from "./Button";
 import { useState } from "react";
 
+import { FaUser } from "react-icons/fa/";
+
 const Navbar = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
 	const [menuClose, setMenuClose] = useState(false);
@@ -23,14 +25,14 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className=' flex flexCenter w-full max-container padding-container relative z-30 py-5'>
+		<nav className=' flex flexCenter w-full max-container padding-container relative bg-blue-300 z-30 py-5'>
 			<Link href='/'>
 				<span>Diani Beach Podcast</span>
 			</Link>
 			<ul
 				className={`${
 					!menuOpen
-						? "absolute flex flex-col sm:flex-row justify-center items-center h-full gap-12 lg:flex sm:flex-wrap sm:justify-center bg-blue-300"
+						? "flex flex-col sm:flex-row flexBetween h-full gap-12 lg:flex sm:flex-wrap"
 						: "hidden"
 				}`}>
 				{NAV_LINKS.map((link) => (
@@ -43,11 +45,11 @@ const Navbar = () => {
 					</li>
 				))}
 			</ul>
-			<div className='md:flexCenter hidden'>
+			<div className='flexCenter'>
 				<Button
 					type='button'
 					title='Contributer'
-					icon='/user.svg'
+					icon={FaUser}
 					variant='btn_dark_green'
 				/>
 			</div>
