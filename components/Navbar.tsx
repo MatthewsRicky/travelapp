@@ -14,25 +14,25 @@ const Navbar = () => {
 	const [menuClose, setMenuClose] = useState(false);
 
 	const handleMenuOpen = () => {
-		if (!menuOpen) {
+		if (menuOpen) {
 			setMenuOpen(true);
 		}
 	};
 	const handleMenuClose = () => {
-		if (!menuClose) {
+		if (menuClose) {
 			setMenuClose(true);
 		}
 	};
 
 	return (
-		<nav className=' flex flexCenter w-full max-container padding-container relative bg-blue-300 z-30 py-5'>
+		<nav className=' flex flexCenter w-full max-container padding-container relative bg-blue-300 z-30 py-5 gap-4'>
 			<Link href='/'>
 				<span>Diani Beach Podcast</span>
 			</Link>
 			<ul
 				className={`${
 					!menuOpen
-						? "flex flex-col sm:flex-row flexBetween h-full gap-12 lg:flex sm:flex-wrap"
+						? "hidden sm:flex flex-col sm:flex-row flexBetween h-full gap-12 lg:flex sm:flex-wrap"
 						: "hidden"
 				}`}>
 				{NAV_LINKS.map((link) => (
@@ -51,20 +51,14 @@ const Navbar = () => {
 				alt='menu'
 				width={28}
 				height={28}
-				className={`${
-					!menuOpen ? "hidden" : "inline-block cursor-pointer md:hidden"
-				}`}
 				onClick={handleMenuOpen}
 			/>
 			<Image
 				src='close.svg'
-				alt='menu'
+				alt='close'
 				width={28}
 				height={28}
-				className={`${
-					!menuOpen ? "hidden" : "inline-block cursor-pointer md:hidden"
-				}`}
-				onClick={handleMenuOpen}
+				onClick={handleMenuClose}
 			/>
 			<ul
 				className={`${
