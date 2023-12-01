@@ -45,14 +45,7 @@ const Navbar = () => {
 					</li>
 				))}
 			</ul>
-			<div className='flexCenter'>
-				<Button
-					type='button'
-					title='Contributer'
-					icon={FaUser}
-					variant='btn_dark_green'
-				/>
-			</div>
+			<div className='flexCenter'></div>
 			<Image
 				src='menu.svg'
 				alt='menu'
