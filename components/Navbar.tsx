@@ -9,10 +9,16 @@ import { useState } from "react";
 
 const Navbar = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
+	const [menuClose, setMenuClose] = useState(false);
 
 	const handleMenuOpen = () => {
 		if (!menuOpen) {
 			setMenuOpen(true);
+		}
+	};
+	const handleMenuClose = () => {
+		if (!menuClose) {
+			setMenuClose(true);
 		}
 	};
 
@@ -28,9 +34,9 @@ const Navbar = () => {
 			</Link>
 			<ul
 				className={`${
-					!menuOpen
+					menuOpen
 						? "hidden"
-						: "flex h-full gap-12 lg:flex sm:flex-wrap sm:justify-center bg-blue-300"
+						: "flex flex-col justify-center items-center h-full gap-12 lg:flex sm:flex-wrap sm:justify-center bg-blue-300"
 				}`}>
 				{NAV_LINKS.map((link) => (
 					<Link
@@ -54,13 +60,23 @@ const Navbar = () => {
 				width={28}
 				height={28}
 				className={`${
-					!menuOpen ? "inline-block cursor-pointer md:hidden" : "hidden"
+					!menuOpen ? "hidden" : "inline-block cursor-pointer md:hidden"
+				}`}
+				onClick={handleMenuOpen}
+			/>
+			<Image
+				src='close.svg'
+				alt='menu'
+				width={28}
+				height={28}
+				className={`${
+					!menuOpen ? "hidden" : "inline-block cursor-pointer md:hidden"
 				}`}
 				onClick={handleMenuOpen}
 			/>
 			<ul
 				className={`${
-					!menuOpen
+					!menuClose
 						? "hidden"
 						: "flex flex-col h-full gap-12 lg:flex sm:flex-wrap sm:justify-center bg-blue-300"
 				}`}>
