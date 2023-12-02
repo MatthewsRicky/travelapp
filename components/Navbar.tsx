@@ -7,22 +7,11 @@ import Link from "next/link";
 import Button from "./Button";
 import { useState } from "react";
 
-import { FaUser } from "react-icons/fa/";
+import { FaUser, FaAnkh, FaBars, FaEject } from "react-icons/fa";
 
 const Navbar = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
 	const [menuClose, setMenuClose] = useState(false);
-
-	const handleMenuOpen = () => {
-		if (menuOpen) {
-			setMenuOpen(true);
-		}
-	};
-	const handleMenuClose = () => {
-		if (menuClose) {
-			setMenuClose(true);
-		}
-	};
 
 	return (
 		<nav className=' flex flexCenter w-full max-container padding-container relative bg-blue-300 z-30 py-5 gap-4'>
@@ -47,6 +36,7 @@ const Navbar = () => {
 				))}
 			</ul>
 			<div className='flexCenter'>
+				<button></button>
 				<Image
 					src='menu.svg'
 					alt='menu'
