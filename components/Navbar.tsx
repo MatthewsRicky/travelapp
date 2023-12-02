@@ -36,25 +36,20 @@ const Navbar = () => {
 				))}
 			</ul>
 			<div className='flexCenter'>
-				<button></button>
-				<Image
-					src='menu.svg'
-					alt='menu'
-					width={28}
-					height={28}
-					onClick={handleMenuOpen}
-					className={`${!menuOpen ? "sm:hidden flex relative z-30" : "hidden"}`}
-				/>
-				<Image
-					src='close.svg'
-					alt='close'
-					width={28}
-					height={28}
-					onClick={handleMenuClose}
+				<button
+					onClick={() => {}}
+					className={`${
+						!menuOpen ? "sm:hidden flex relative z-30" : "hidden"
+					}`}>
+					<FaBars />
+				</button>
+				<button
+					onClick={() => {}}
 					className={`${
 						!menuClose ? "sm:hidden flex relative z-30" : "hidden"
-					}`}
-				/>
+					}`}>
+					<FaAnkh />
+				</button>
 			</div>
 		</nav>
 	);
