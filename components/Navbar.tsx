@@ -29,6 +29,7 @@ const Navbar = () => {
 			<Link href='/'>
 				<span>Diani Beach Podcast</span>
 			</Link>
+			{}
 			<ul
 				className={`${
 					!menuOpen
@@ -52,7 +53,7 @@ const Navbar = () => {
 					width={28}
 					height={28}
 					onClick={handleMenuOpen}
-					className='sm:hidden flex relative z-30'
+					className={`${!menuOpen ? "sm:hidden flex relative z-30" : "hidden"}`}
 				/>
 				<Image
 					src='close.svg'
@@ -60,7 +61,9 @@ const Navbar = () => {
 					width={28}
 					height={28}
 					onClick={handleMenuClose}
-					className='sm:hidden'
+					className={`${
+						!menuClose ? "sm:hidden flex relative z-30" : "hidden"
+					}`}
 				/>
 			</div>
 		</nav>
