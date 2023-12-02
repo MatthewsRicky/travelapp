@@ -31,7 +31,7 @@ const Navbar = () => {
 			</Link>
 			<ul
 				className={`${
-					menuOpen
+					!menuOpen
 						? "hidden sm:flex flex-col sm:flex-row flexBetween h-full gap-12 lg:flex sm:flex-wrap"
 						: "hidden"
 				}`}>
@@ -45,23 +45,24 @@ const Navbar = () => {
 					</li>
 				))}
 			</ul>
-			<div className='flexCenter'></div>
-			<Image
-				src='menu.svg'
-				alt='menu'
-				width={28}
-				height={28}
-				onClick={handleMenuOpen}
-				className='sm:hidden flex relative z-30'
-			/>
-			<Image
-				src='close.svg'
-				alt='close'
-				width={28}
-				height={28}
-				onClick={handleMenuClose}
-				className='sm:hidden'
-			/>
+			<div className='flexCenter'>
+				<Image
+					src='menu.svg'
+					alt='menu'
+					width={28}
+					height={28}
+					onClick={handleMenuOpen}
+					className='sm:hidden flex relative z-30'
+				/>
+				<Image
+					src='close.svg'
+					alt='close'
+					width={28}
+					height={28}
+					onClick={handleMenuClose}
+					className='sm:hidden'
+				/>
+			</div>
 		</nav>
 	);
 };
