@@ -18,7 +18,7 @@ const Navbar = () => {
 		}
 	};
 	const handleMenuClose = (menuClose: any) => {
-		if (!menuOpen) {
+		if (menuOpen) {
 			setMenuOpen(false);
 		}
 	};
@@ -64,7 +64,9 @@ const Navbar = () => {
 				</button>
 				<button
 					onClick={handleMenuClose}
-					className={`${menuOpen ? "sm:hidden flex relative z-30" : "hidden"}`}>
+					className={`${
+						!menuOpen ? "hidden" : "sm:hidden flex relative z-30"
+					}`}>
 					<FaAnkh />
 				</button>
 			</div>
