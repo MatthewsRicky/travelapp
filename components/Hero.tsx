@@ -19,25 +19,26 @@ const Hero = () => {
 			</h1>
 
 			<div className='relative z-20 flex flex-shrink gap-6 flex-col sm:flex-row items-center mb-20 justify-around'>
-				<div className='relative flex flex-col z-20'>
-					<Image
-						src='/libosso_profile.webp'
-						alt='Libosso'
-						width={250}
-						height={250}
-						className='shadow-lg rounded-lg'
-					/>
-				</div>
 				<div className='relative flex flex-col'>
-					<div className='justify-between items-center relative bg-blue-100/10 flex z-20 w-72 flex-col gap-8 px-7 py-3 shadow-2xl'>
-						<p className='bold-24 px-4 py-6 rounded-md mt-6 text-center bg-blue-700/70 text-blue-200 shadow-lg xl:max-w-[520px]'>
-							Diani Beach Podcast is the ultra-shareable, uber-cool online guide
-							to things to do in Diani Beach.
-						</p>
-
-						<p className='text-lg font-semibold text-blue-800'>
-							Contributor: Vincent Embukane Liboso
-						</p>
+					<div className='justify-between items-center relative bg-blue-100/10 flex z-20 w-full fle flex-row gap-8 px-7 py-3 shadow-2xl'>
+						<div className='relative flex flex-col z-20 shadow-lg w-[50%] rounded-lg'>
+							<Image
+								src='/libosso_profile.webp'
+								alt='Libosso'
+								width={250}
+								height={250}
+								className=''
+							/>
+						</div>
+						<div className='flex flex-col w-[40%]'>
+							<p className='bold-24 px-4 py-6 rounded-md mt-6 text-center bg-blue-700/70 text-blue-200 shadow-lg xl:max-w-[520px]'>
+								Diani Beach Podcast is the ultra-shareable, uber-cool online
+								guide to things to do in Diani Beach.
+							</p>
+							<p className='text-lg font-semibold text-blue-800'>
+								Contributor: Vincent Embukane Liboso
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
