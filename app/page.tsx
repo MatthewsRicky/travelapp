@@ -1,3 +1,4 @@
+import Blogs from "@/components/Blogs";
 import Camp from "@/components/Camp";
 import Features from "@/components/Features";
 import GetApp from "@/components/GetApp";
@@ -8,7 +9,7 @@ export default function Home() {
 	return (
 		<>
 			<Hero />
-			<Camp />
+			<Blogs />
 			<Guide />
 			<Features />
 			<GetApp />
