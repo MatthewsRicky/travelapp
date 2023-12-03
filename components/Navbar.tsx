@@ -11,17 +11,36 @@ import { FaUser, FaAnkh, FaBars, FaEject } from "react-icons/fa";
 
 const Navbar = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
-	const [menuClose, setMenuClose] = useState(false);
 
+	const handleMenuOpen = (menuOpen: any) => {
+		if (menuOpen) {
+			setMenuOpen(true);
+		}
+	};
+	const handleMenuClose = (menuClose: any) => {
+		if (!menuOpen) {
+			setMenuOpen(false);
+		}
+	};
 	return (
 		<nav className=' flex flexCenter w-full max-container padding-container relative bg-blue-300 z-30 py-5 gap-4'>
 			<Link href='/'>
 				<span>Diani Beach Podcast</span>
 			</Link>
-			{}
+			<ul className='hidden sm:flex flex-row'>
+				{NAV_LINKS.map((link) => (
+					<li>
+						<Link
+							href={link.href}
+							key={link.key}>
+							{link.label}
+						</Link>
+					</li>
+				))}
+			</ul>
 			<ul
 				className={`${
-					!menuOpen
+					menuOpen
 						? "hidden sm:flex flex-col sm:flex-row flexBetween h-full gap-12 lg:flex sm:flex-wrap"
 						: "hidden"
 				}`}>
@@ -37,17 +56,15 @@ const Navbar = () => {
 			</ul>
 			<div className='flexCenter'>
 				<button
-					onClick={() => {}}
+					onClick={handleMenuOpen}
 					className={`${
 						!menuOpen ? "sm:hidden flex relative z-30" : "hidden"
 					}`}>
 					<FaBars />
 				</button>
 				<button
-					onClick={() => {}}
-					className={`${
-						!menuClose ? "sm:hidden flex relative z-30" : "hidden"
-					}`}>
+					onClick={handleMenuClose}
+					className={`${menuOpen ? "sm:hidden flex relative z-30" : "hidden"}`}>
 					<FaAnkh />
 				</button>
 			</div>
