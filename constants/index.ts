@@ -70,7 +70,7 @@ export const BLOG_SECTION = [
 		title: "Dine Out at these New Diani Hotspots",
 		description:
 			"February is technically the first month, so congratulations: you’ve pretty much survived another nJaanuary (*ask a Kenyan the meaning of this) in Diani. To make it go by quicker, here are some new tasty gourmet spots in town to check out.",
-		src: "/public/sarova-stanley-thai-chi-restaurant-9.webp",
+		src: "/sarova-stanley-thai-chi-restaurant-9.webp",
 		alt: "Sarova Stanley Thai Chi Restaurant",
 	},
 ];
