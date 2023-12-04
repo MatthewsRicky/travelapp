@@ -81,11 +81,11 @@ export const BLOG_SECTION = [
 		alt: "Palm Trees",
 	},
 	{
-		title: "Dine Out at these New Diani Hotspots",
+		title: "I Went To My First Karaoke Night | Diani Beach Nightlife",
 		description:
-			"February is technically the first month, so congratulations: you’ve pretty much survived another nJaanuary (*ask a Kenyan the meaning of this) in Diani. To make it go by quicker, here are some new tasty gourmet spots in town to check out.",
-		src: "/sarova-stanley-thai-chi-restaurant-9.webp",
-		alt: "Sarova Stanley Thai Chi Restaurant",
+			"This weekend, we’ve got Mombasa’s Shanga Tatu passing through, DJ Kuzi playing at Funky Monkey; bonfire party at Soul Breeze and more. Here’s your handy guide of the coolest parties happening in Diani this week.",
+		src: "/the-club-diani-revelers.-photo-credited-to-the-club-diani-facebook-page.webp",
+		alt: "Diani Nights",
 	},
 	{
 		title: "Dine Out at these New Diani Hotspots",
