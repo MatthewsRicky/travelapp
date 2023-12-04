@@ -10,7 +10,7 @@ const Hero = () => {
 				loop
 				muted>
 				<source
-					src='herovid.mp4'
+					src='DJI_0012(1).mp4'
 					type='video/mp4'
 				/>
 			</video>
