@@ -2,7 +2,14 @@ import { BLOG_SECTION } from "@/constants";
 import Image from "next/image";
 import React from "react";
 
-const BlogCard = () => {
+type blogItems = {
+	src: string;
+	alt: string;
+	title: string;
+	description: string;
+};
+
+const BlogCard = ({ src, alt, title, description }: blogItems) => {
 	return (
 		<div>
 			{BLOG_SECTION.map((blog) => (
@@ -10,8 +17,8 @@ const BlogCard = () => {
 					<Image
 						src={src}
 						alt={alt}
-						width={width}
-						height={height}
+						width={1000}
+						height={1000}
 					/>
 					<div>
 						<h1>{title}</h1>
