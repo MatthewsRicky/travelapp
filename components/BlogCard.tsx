@@ -13,16 +13,16 @@ const BlogCard = ({ src, alt, title, description }: blogItems) => {
 	return (
 		<div>
 			{BLOG_SECTION.map((blog) => (
-				<div>
+				<div key={blog.title}>
 					<Image
-						src={src}
-						alt={alt}
+						src={blog.src}
+						alt={blog.alt}
 						width={1000}
 						height={1000}
 					/>
 					<div>
-						<h1>{title}</h1>
-						<p>{description}</p>
+						<h1>{blog.title}</h1>
+						<p>{blog.description}</p>
 					</div>
 				</div>
 			))}
