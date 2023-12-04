@@ -73,6 +73,55 @@ export const BLOG_SECTION = [
 		src: "/sarova-stanley-thai-chi-restaurant-9.webp",
 		alt: "Sarova Stanley Thai Chi Restaurant",
 	},
+	{
+		title: "Your Pre‑Arrival Checklist for Diani Beach Kenya",
+		description:
+			"You could be heading for a staycation, honeymoon, enjoying a quick stopover, family holiday or backpacking solo or with friends ‑ we all want it easy when we head to our destination, so here is your pre‑arrival checklist for Diani.",
+		src: "/happiness-retreat-with-nadine-diani-beach-june-2021-image-2.webp",
+		alt: "Palm Trees",
+	},
+	{
+		title: "Dine Out at these New Diani Hotspots",
+		description:
+			"February is technically the first month, so congratulations: you’ve pretty much survived another nJaanuary (*ask a Kenyan the meaning of this) in Diani. To make it go by quicker, here are some new tasty gourmet spots in town to check out.",
+		src: "/sarova-stanley-thai-chi-restaurant-9.webp",
+		alt: "Sarova Stanley Thai Chi Restaurant",
+	},
+	{
+		title: "Dine Out at these New Diani Hotspots",
+		description:
+			"February is technically the first month, so congratulations: you’ve pretty much survived another nJaanuary (*ask a Kenyan the meaning of this) in Diani. To make it go by quicker, here are some new tasty gourmet spots in town to check out.",
+		src: "/sarova-stanley-thai-chi-restaurant-9.webp",
+		alt: "Sarova Stanley Thai Chi Restaurant",
+	},
+	{
+		title: "Dine Out at these New Diani Hotspots",
+		description:
+			"February is technically the first month, so congratulations: you’ve pretty much survived another nJaanuary (*ask a Kenyan the meaning of this) in Diani. To make it go by quicker, here are some new tasty gourmet spots in town to check out.",
+		src: "/sarova-stanley-thai-chi-restaurant-9.webp",
+		alt: "Sarova Stanley Thai Chi Restaurant",
+	},
+	{
+		title: "Dine Out at these New Diani Hotspots",
+		description:
+			"February is technically the first month, so congratulations: you’ve pretty much survived another nJaanuary (*ask a Kenyan the meaning of this) in Diani. To make it go by quicker, here are some new tasty gourmet spots in town to check out.",
+		src: "/sarova-stanley-thai-chi-restaurant-9.webp",
+		alt: "Sarova Stanley Thai Chi Restaurant",
+	},
+	{
+		title: "Dine Out at these New Diani Hotspots",
+		description:
+			"February is technically the first month, so congratulations: you’ve pretty much survived another nJaanuary (*ask a Kenyan the meaning of this) in Diani. To make it go by quicker, here are some new tasty gourmet spots in town to check out.",
+		src: "/sarova-stanley-thai-chi-restaurant-9.webp",
+		alt: "Sarova Stanley Thai Chi Restaurant",
+	},
+	{
+		title: "Dine Out at these New Diani Hotspots",
+		description:
+			"February is technically the first month, so congratulations: you’ve pretty much survived another nJaanuary (*ask a Kenyan the meaning of this) in Diani. To make it go by quicker, here are some new tasty gourmet spots in town to check out.",
+		src: "/sarova-stanley-thai-chi-restaurant-9.webp",
+		alt: "Sarova Stanley Thai Chi Restaurant",
+	},
 ];
 
 // FOOTER SECTION
