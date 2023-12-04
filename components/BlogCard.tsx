@@ -11,9 +11,11 @@ type blogItems = {
 
 const BlogCard = ({ src, alt, title, description }: blogItems) => {
 	return (
-		<div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-4 max-container items-center '>
+		<div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-container items-center '>
 			{BLOG_SECTION.map((blog) => (
-				<div key={blog.title}>
+				<div
+					key={blog.title}
+					className=''>
 					<div>
 						<Image
 							src={blog.src}
