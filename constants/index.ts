@@ -87,41 +87,6 @@ export const BLOG_SECTION = [
 		src: "/the-club-diani-revelers.-photo-credited-to-the-club-diani-facebook-page.webp",
 		alt: "Diani Nights",
 	},
-	{
-		title: "Dine Out at these New Diani Hotspots",
-		description:
-			"February is technically the first month, so congratulations: you’ve pretty much survived another nJaanuary (*ask a Kenyan the meaning of this) in Diani. To make it go by quicker, here are some new tasty gourmet spots in town to check out.",
-		src: "/sarova-stanley-thai-chi-restaurant-9.webp",
-		alt: "Sarova Stanley Thai Chi Restaurant",
-	},
-	{
-		title: "Dine Out at these New Diani Hotspots",
-		description:
-			"February is technically the first month, so congratulations: you’ve pretty much survived another nJaanuary (*ask a Kenyan the meaning of this) in Diani. To make it go by quicker, here are some new tasty gourmet spots in town to check out.",
-		src: "/sarova-stanley-thai-chi-restaurant-9.webp",
-		alt: "Sarova Stanley Thai Chi Restaurant",
-	},
-	{
-		title: "Dine Out at these New Diani Hotspots",
-		description:
-			"February is technically the first month, so congratulations: you’ve pretty much survived another nJaanuary (*ask a Kenyan the meaning of this) in Diani. To make it go by quicker, here are some new tasty gourmet spots in town to check out.",
-		src: "/sarova-stanley-thai-chi-restaurant-9.webp",
-		alt: "Sarova Stanley Thai Chi Restaurant",
-	},
-	{
-		title: "Dine Out at these New Diani Hotspots",
-		description:
-			"February is technically the first month, so congratulations: you’ve pretty much survived another nJaanuary (*ask a Kenyan the meaning of this) in Diani. To make it go by quicker, here are some new tasty gourmet spots in town to check out.",
-		src: "/sarova-stanley-thai-chi-restaurant-9.webp",
-		alt: "Sarova Stanley Thai Chi Restaurant",
-	},
-	{
-		title: "Dine Out at these New Diani Hotspots",
-		description:
-			"February is technically the first month, so congratulations: you’ve pretty much survived another nJaanuary (*ask a Kenyan the meaning of this) in Diani. To make it go by quicker, here are some new tasty gourmet spots in town to check out.",
-		src: "/sarova-stanley-thai-chi-restaurant-9.webp",
-		alt: "Sarova Stanley Thai Chi Restaurant",
-	},
 ];
 
 // FOOTER SECTION
