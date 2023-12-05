@@ -12,33 +12,35 @@ type blogItems = {
 
 const BlogCard = ({ src, alt, title, description }: blogItems) => {
 	return (
-		<div className='grid my-10 w-[93%] sm:grid-cols-2 lg:grid-cols-3 gap-8 max-container items-center blogs-bg p-4 border-none shadow-md rounded-lg'>
+		<section className='grid my-10 w-[93%] sm:grid-cols-2 lg:grid-cols-3 gap-8 max-container items-center blogs-bg p-4 border-none shadow-md rounded-lg'>
 			<span>
 				<p>BLOGS</p>
 				<FaBlog />
 			</span>
-			{BLOG_SECTION.map((blog) => (
-				<article
-					key={blog.title}
-					className='my-6 flex flex-col items-center justify-center'>
-					<div>
-						<Image
-							src={blog.src}
-							alt={blog.alt}
-							width={1000}
-							height={1000}
-							className='rounded-md mb-6'
-						/>
+			<>
+				{BLOG_SECTION.map((blog) => (
+					<article
+						key={blog.title}
+						className='my-6 flex flex-col items-center justify-center'>
 						<div>
-							<h1 className='flex text-center text-md my-3 items'>
-								{blog.title}
-							</h1>
-							<p>{blog.description}</p>
+							<Image
+								src={blog.src}
+								alt={blog.alt}
+								width={1000}
+								height={1000}
+								className='rounded-md mb-6'
+							/>
+							<div>
+								<h1 className='flex text-center text-md my-3 items'>
+									{blog.title}
+								</h1>
+								<p>{blog.description}</p>
+							</div>
 						</div>
-					</div>
-				</article>
-			))}
-		</div>
+					</article>
+				))}
+			</>
+		</section>
 	);
 };
 
