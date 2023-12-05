@@ -25,7 +25,7 @@ const BlogCard = ({ src, alt, title, description }: blogItems) => {
 							className='rounded-md mb-6'
 						/>
 						<div>
-							<h1>{blog.title}</h1>
+							<h1 className='flex text-center text-lg'>{blog.title}</h1>
 							<p>{blog.description}</p>
 						</div>
 					</div>
