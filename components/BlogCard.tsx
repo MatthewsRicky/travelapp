@@ -11,7 +11,7 @@ type blogItems = {
 
 const BlogCard = ({ src, alt, title, description }: blogItems) => {
 	return (
-		<div className='grid my-10 w-[93%] sm:grid-cols-2 lg:grid-cols-3 gap-8 max-container items-center '>
+		<div className='grid my-10 w-[93%] sm:grid-cols-2 lg:grid-cols-3 gap-8 max-container items-center blogs-bg'>
 			{BLOG_SECTION.map((blog) => (
 				<article
 					key={blog.title}
