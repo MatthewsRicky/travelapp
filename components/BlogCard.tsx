@@ -1,6 +1,7 @@
 import { BLOG_SECTION } from "@/constants";
 import Image from "next/image";
 import React from "react";
+import { FaBlog } from "react-icons/fa";
 
 type blogItems = {
 	src: string;
@@ -11,7 +12,11 @@ type blogItems = {
 
 const BlogCard = ({ src, alt, title, description }: blogItems) => {
 	return (
-		<div className='grid my-10 w-[93%] sm:grid-cols-2 lg:grid-cols-3 gap-8 max-container items-center blogs-bg'>
+		<div className='grid my-10 w-[93%] sm:grid-cols-2 lg:grid-cols-3 gap-8 max-container items-center blogs-bg p-4 border-none shadow-md rounded-lg'>
+			<span>
+				<p>BLOGS</p>
+				<FaBlog />
+			</span>
 			{BLOG_SECTION.map((blog) => (
 				<article
 					key={blog.title}
