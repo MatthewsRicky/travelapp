@@ -30,6 +30,10 @@ video {
 	object-fit: cover;
 }
 
+.blogs-bg {
+	background-color: rgba(250, 66, 33, 0.25);
+}
+
 @layer utilities {
 	.btn_white {
 		@apply border-white bg-white px-8 py-3 text-green-50;
