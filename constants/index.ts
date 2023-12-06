@@ -123,6 +123,21 @@ export const BLOG_SECTION = [
 		src: "/pallet-cafe-diani-1.webp",
 		alt: "Fadhilee at Pallet Cafe",
 	},
+	{
+		title:
+			"Happiness Retreat with Nadine Returns to Diani Beach | January 2022",
+		description:
+			"Start your new year away from the hustle and bustle of everyday life and give yourself some quality time away to truly relax and revitalise, detox, destress & laugh.",
+		src: "/happiness-retreat-with-nadine-5.webp",
+		alt: "Fadhilee at Pallet Cafe",
+	},
+	{
+		title: "Red Bull Quicksand 2021 to Take Place at Kongo River Beach, Diani",
+		description:
+			"Red Bull Quicksand could be the toughest 1 mile you ever run.",
+		src: "/red-bull-quicksand-2021-beach-run-diani-kenya (1).webp",
+		alt: "Red Bull Quicksand 2021",
+	},
 ];
 
 // FOOTER SECTION
