@@ -23,11 +23,11 @@ const Navbar = () => {
 		}
 	};
 	return (
-		<nav className=' flex flexCenter w-full max-container padding-container relative bg-blue-300 z-30 py-5 gap-4'>
+		<nav className=' flex justify-around items-center w-full max-container padding-container relative bg-blue-300 z-30 py-5 gap-4'>
 			<Link href='/'>
 				<span>Diani Beach Podcast</span>
 			</Link>
-			<ul className='hidden sm:flex flex-row'>
+			<ul className='hidden justify-around sm:flex flex-row'>
 				{NAV_LINKS.map((link) => (
 					<li>
 						<Link
