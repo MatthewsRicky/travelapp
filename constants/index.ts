@@ -108,6 +108,14 @@ export const BLOG_SECTION = [
 		src: "/the-club-diani-image-courtesy-of-their-facebook-page-40theclubdiani-2.webp",
 		alt: "The Club Diani",
 	},
+	{
+		title:
+			"The Chi Restaurant at Sarova Stanley Earns Thai SELECT Certification",
+		description:
+			"A piece of Thailand in Nairobi, Thai Chi has previously been awarded as the most authentic Thai restaurant in East Africa",
+		src: "/sarova-stanley-thai-chi-restaurant-9.webp",
+		alt: "Thai Chi Restaurant",
+	},
 ];
 
 // FOOTER SECTION
