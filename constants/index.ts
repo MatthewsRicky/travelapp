@@ -92,7 +92,14 @@ export const BLOG_SECTION = [
 		description:
 			"Local pub karaoke nights are surging in popularity in Diani beach and Stilts Backpackers might have the perfect formula for a Thursday night out.",
 		src: "/the-stilts-backpackers-diani-beach-bar-image-courtesy-of-stilts-backpackers-facebook-page.webp",
-		alt: "Diani Nights",
+		alt: "Backpackers",
+	},
+	{
+		title: "I Got My First Massage Experience In Diani Beach - I Deserved It",
+		description:
+			"Is there anything better than a massage in Diani beach that hits the spot? Florence Ky’s Spa is close to my place.",
+		src: "/wellness.webp",
+		alt: "Wellness",
 	},
 ];
 
