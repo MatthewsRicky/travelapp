@@ -138,6 +138,13 @@ export const BLOG_SECTION = [
 		src: "/red-bull-quicksand-2021-beach-run-diani-kenya (1).webp",
 		alt: "Red Bull Quicksand 2021",
 	},
+	{
+		title: "TribEarth Soul Sessions | Fridays from 4pm",
+		description:
+			"TribEarth is shifting gears to launch “The TribEarth Soul Sessions,” a live music series built on the trove of intimacy, innovation and our overall goal to support homegrown music talents.",
+		src: "/tribearth-soul-sessions-every-friday-poster (1).webp",
+		alt: "TribeEart Soul Sessions 2021",
+	},
 ];
 
 // FOOTER SECTION
