@@ -1,6 +1,6 @@
 "use client";
 
-import { NAV_LINKS } from "@/constants";
+import { ADMIN_ICONS, NAV_LINKS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -36,6 +36,13 @@ const Navbar = () => {
 								key={link.key}>
 								{link.label}
 							</Link>
+						</li>
+					))}
+				</ul>
+				<ul className='hidden bg-orange-300 justify-center gap-6 sm:flex flex-row'>
+					{ADMIN_ICONS.map((admin) => (
+						<li key={admin.key}>
+							<button>{admin.icon}</button>
 						</li>
 					))}
 				</ul>
