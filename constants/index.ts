@@ -116,6 +116,13 @@ export const BLOG_SECTION = [
 		src: "/sarova-stanley-thai-chi-restaurant-9.webp",
 		alt: "Thai Chi Restaurant",
 	},
+	{
+		title: "Fadhilee Itulya at Pallete Cafe Diani - Event Review",
+		description:
+			"The music creates a great atmosphere. Food and music are meant to go together.",
+		src: "/pallet-cafe-diani-1.webp",
+		alt: "Fadhilee at Pallet Cafe",
+	},
 ];
 
 // FOOTER SECTION
