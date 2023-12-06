@@ -101,6 +101,13 @@ export const BLOG_SECTION = [
 		src: "/wellness.webp",
 		alt: "Wellness",
 	},
+	{
+		title: "Nightlife: The Club Diani Fiinally Opens",
+		description:
+			"Ihis week, Diani beach welcomes a new superclub – The Club Diani to its nightlife glitter. There will always be drinking and dancing in Diani. Wine and More Diani just completed their expansion. Already there is word of a new bar; Funky Monkey is about to open.",
+		src: "/the-club-diani-image-courtesy-of-their-facebook-page-40theclubdiani-2.webp",
+		alt: "The Club Diani",
+	},
 ];
 
 // FOOTER SECTION
