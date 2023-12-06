@@ -10,6 +10,8 @@ export const NAV_LINKS = [
 	{ href: "/", key: "Blog", label: "Blog" },
 
 	{ href: "/", key: "Diani Directory", label: "Diani Directory" },
+
+	{ href: "/", key: "Categories", label: "Categories" },
 ];
 
 export const ADMIN_ICONS = [
