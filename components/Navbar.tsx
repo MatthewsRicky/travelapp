@@ -27,7 +27,7 @@ const Navbar = () => {
 			<Link href='/'>
 				<span>Diani Beach Podcast</span>
 			</Link>
-			<ul className='hidden justify-around sm:flex flex-row'>
+			<ul className='hidden justify-center gap-6 sm:flex flex-row'>
 				{NAV_LINKS.map((link) => (
 					<li>
 						<Link
@@ -41,7 +41,7 @@ const Navbar = () => {
 			<ul
 				className={`${
 					menuOpen
-						? "hidden sm:flex flex-col sm:flex-row flexBetween h-full gap-12 lg:flex sm:flex-wrap"
+						? "hidden sm:flex flex-col mt-10 sm:flex-row flexBetween gap-12 lg:flex sm:flex-wrap"
 						: "hidden"
 				}`}>
 				{NAV_LINKS.map((link) => (
