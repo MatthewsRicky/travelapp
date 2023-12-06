@@ -31,7 +31,7 @@ const BlogCard = ({ src, alt, title, description }: blogItems) => {
 								className='rounded-md mb-6'
 							/>
 							<div>
-								<h1 className='flex text-center text-md my-3 items'>
+								<h1 className='bold-32 px-2 py-3 shadow-sm rounded-md shadow-orange-300  flex text-center text-md my-3 items'>
 									{blog.title}
 								</h1>
 								<p>{blog.description}</p>
