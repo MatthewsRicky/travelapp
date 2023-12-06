@@ -30,11 +30,11 @@ const BlogCard = ({ src, alt, title, description }: blogItems) => {
 								height={1000}
 								className='rounded-md mb-6'
 							/>
-							<div>
+							<div className='border-b-orange-300 border-opacity-30 shadow-sm border-b-2'>
 								<h1 className='bold-32 px-2 py-3 shadow-sm rounded-md shadow-orange-300  flex text-center text-md my-3 items'>
 									{blog.title}
 								</h1>
-								<p>{blog.description}</p>
+								<p className='mb-4 p-4 text-center'>{blog.description}</p>
 							</div>
 						</div>
 					</article>
