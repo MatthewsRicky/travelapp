@@ -81,6 +81,13 @@ export const BLOG_SECTION = [
 		alt: "Palm Trees",
 	},
 	{
+		title: "The Coolest Parties in Diani (Jan 26 - Jan 29) ",
+		description:
+			"This weekend, we’ve got Mombasa’s Shanga Tatu passing through, DJ Kuzi playing at Funky Monkey; bonfire party at Soul Breeze and more. Here’s your handy guide of the coolest parties happening in Diani this week.",
+		src: "/the-club-diani-revelers.-photo-credited-to-the-club-diani-facebook-page.webp",
+		alt: "Diani Nights",
+	},
+	{
 		title: "I Went To My First Karaoke Night | Diani Beach Nightlife",
 		description:
 			"This weekend, we’ve got Mombasa’s Shanga Tatu passing through, DJ Kuzi playing at Funky Monkey; bonfire party at Soul Breeze and more. Here’s your handy guide of the coolest parties happening in Diani this week.",
