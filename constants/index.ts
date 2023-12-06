@@ -90,8 +90,8 @@ export const BLOG_SECTION = [
 	{
 		title: "I Went To My First Karaoke Night | Diani Beach Nightlife",
 		description:
-			"This weekend, we’ve got Mombasa’s Shanga Tatu passing through, DJ Kuzi playing at Funky Monkey; bonfire party at Soul Breeze and more. Here’s your handy guide of the coolest parties happening in Diani this week.",
-		src: "/the-club-diani-revelers.-photo-credited-to-the-club-diani-facebook-page.webp",
+			"Local pub karaoke nights are surging in popularity in Diani beach and Stilts Backpackers might have the perfect formula for a Thursday night out.",
+		src: "/the-stilts-backpackers-diani-beach-bar-image-courtesy-of-stilts-backpackers-facebook-page.webp",
 		alt: "Diani Nights",
 	},
 ];
