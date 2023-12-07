@@ -33,10 +33,12 @@ const Navbar = () => {
 	return (
 		<nav className='flex flex-col md:flex-row justify-around items-center w-full max-container padding-container relative bg-blue-300 z-30 py-5 gap-4'>
 			<div className='flex flex-row justify-between w-full'>
-				<Link href='/'>
+				<Link
+					href='/'
+					className='flex items-center'>
 					<span>Diani Beach Podcast</span>
 				</Link>
-				<ul className='hidden justify-center gap-6 sm:flex flex-row'>
+				<ul className='hidden justify-center items-center gap-6 sm:flex flex-row'>
 					{NAV_LINKS.map((link) => (
 						<li>
 							<Link
@@ -47,23 +49,23 @@ const Navbar = () => {
 						</li>
 					))}
 				</ul>
-				<ul className='hidden bg-orange-300 justify-center gap-6 sm:flex flex-row'>
-					<li>
+				<ul className='hidden items-center justify-center rounded full gap-6 sm:flex flex-row'>
+					<li className='flex px-2 py-2 items-center justify-center shadow-lg rounded-full'>
 						<Link href='/'>
 							<FaFacebook />
 						</Link>
 					</li>
-					<li>
+					<li className='flex px-2 py-2 items-center justify-center shadow-lg rounded-full'>
 						<Link href='/'>
 							<FaInstagram />
 						</Link>
 					</li>
-					<li>
+					<li className='flex px-2 py-2 items-center justify-center shadow-lg rounded-full'>
 						<Link href='/'>
 							<FaTwitter />
 						</Link>
 					</li>
-					<li>
+					<li className='flex px-2 py-2 items-center justify-center shadow-lg rounded-full'>
 						<Link href='/'>
 							<FaUser />
 						</Link>
@@ -102,6 +104,29 @@ const Navbar = () => {
 						</Link>
 					</li>
 				))}
+
+				<ul className='flex sm:hidden items-center justify-center rounded full gap-6 flex-row'>
+					<li className='flex px-2 py-2 items-center justify-center shadow-lg rounded-full'>
+						<Link href='/'>
+							<FaFacebook />
+						</Link>
+					</li>
+					<li className='flex px-2 py-2 items-center justify-center shadow-lg rounded-full'>
+						<Link href='/'>
+							<FaInstagram />
+						</Link>
+					</li>
+					<li className='flex px-2 py-2 items-center justify-center shadow-lg rounded-full'>
+						<Link href='/'>
+							<FaTwitter />
+						</Link>
+					</li>
+					<li className='flex px-2 py-2 items-center justify-center shadow-lg rounded-full'>
+						<Link href='/'>
+							<FaUser />
+						</Link>
+					</li>
+				</ul>
 			</ul>
 		</nav>
 	);
