@@ -1,13 +1,21 @@
 "use client";
 
-import { ADMIN_ICONS, NAV_LINKS } from "@/constants";
+import { NAV_LINKS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 
 import Button from "./Button";
 import { useState } from "react";
 
-import { FaUser, FaAnkh, FaBars, FaEject } from "react-icons/fa";
+import {
+	FaUser,
+	FaAnkh,
+	FaBars,
+	FaEject,
+	FaFacebook,
+	FaInstagram,
+	FaTwitter,
+} from "react-icons/fa";
 
 const Navbar = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -40,11 +48,26 @@ const Navbar = () => {
 					))}
 				</ul>
 				<ul className='hidden bg-orange-300 justify-center gap-6 sm:flex flex-row'>
-					{ADMIN_ICONS.map((admin) => (
-						<li key={admin.key}>
-							<button>{admin.icon}</button>
-						</li>
-					))}
+					<li>
+						<Link href='/'>
+							<FaFacebook />
+						</Link>
+					</li>
+					<li>
+						<Link href='/'>
+							<FaInstagram />
+						</Link>
+					</li>
+					<li>
+						<Link href='/'>
+							<FaTwitter />
+						</Link>
+					</li>
+					<li>
+						<Link href='/'>
+							<FaUser />
+						</Link>
+					</li>
 				</ul>
 				<div className='flexCenter'>
 					<button
