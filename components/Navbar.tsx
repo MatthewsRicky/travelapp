@@ -49,7 +49,7 @@ const Navbar = () => {
 						</li>
 					))}
 				</ul>
-				<ul className='hidden items-center justify-center rounded full gap-6 sm:flex flex-row'>
+				<ul className='hidden items-center rounded full gap-6 sm:flex flex-row'>
 					<li className='flex px-2 py-2 items-center justify-center shadow-lg rounded-full'>
 						<Link href='/'>
 							<FaFacebook />
