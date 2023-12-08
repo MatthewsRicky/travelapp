@@ -16,6 +16,7 @@ import {
 	FaInstagram,
 	FaTwitter,
 } from "react-icons/fa";
+import Socials from "./Socials";
 
 const Navbar = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -49,28 +50,8 @@ const Navbar = () => {
 						</li>
 					))}
 				</ul>
-				<ul className='hidden items-center rounded full gap-6 sm:flex flex-row'>
-					<li className='flex px-2 py-2 items-center justify-center shadow-lg rounded-full'>
-						<Link href='/'>
-							<FaFacebook />
-						</Link>
-					</li>
-					<li className='flex px-2 py-2 items-center justify-center shadow-lg rounded-full'>
-						<Link href='/'>
-							<FaInstagram />
-						</Link>
-					</li>
-					<li className='flex px-2 py-2 items-center justify-center shadow-lg rounded-full'>
-						<Link href='/'>
-							<FaTwitter />
-						</Link>
-					</li>
-					<li className='flex px-2 py-2 items-center justify-center shadow-lg rounded-full'>
-						<Link href='/'>
-							<FaUser />
-						</Link>
-					</li>
-				</ul>
+				<Socials />
+
 				<div className='flexCenter'>
 					<button
 						onClick={handleMenuOpen}
@@ -119,11 +100,6 @@ const Navbar = () => {
 					<li className='flex px-2 py-2 items-center justify-center shadow-lg rounded-full'>
 						<Link href='/'>
 							<FaTwitter />
-						</Link>
-					</li>
-					<li className='flex px-2 py-2 items-center justify-center shadow-lg rounded-full'>
-						<Link href='/'>
-							<FaUser />
 						</Link>
 					</li>
 				</ul>
