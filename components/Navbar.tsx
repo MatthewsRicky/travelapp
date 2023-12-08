@@ -33,7 +33,7 @@ const Navbar = () => {
 	};
 	return (
 		<section className='relative'>
-			<nav className='fixed sm:left-[10%] md:left-[12.5%] flex flex-col md:flex-row justify-around items-center max-container padding-container my-6 sm:rounded-full bg-blue-400/60 z-30 py-3 gap-4 w-full sm:w-[80%] md:w-[75%]'>
+			<nav className='fixed sm:left-[10%] md:left-[12.5%] lg:left-[17.5%] flex flex-col md:flex-row justify-around items-center max-container padding-container my-6 sm:rounded-full bg-blue-400/80 z-30 py-3 gap-4 w-full sm:w-[80%] md:w-[75%] lg:w-[65%]'>
 				<div className='flex flex-row justify-between w-full'>
 					<Link
 						href='/'
