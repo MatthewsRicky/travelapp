@@ -33,16 +33,16 @@ const Navbar = () => {
 	};
 	return (
 		<section className='relative'>
-			<nav className='fixed sm:left-[10%] md:left-[12.5%] lg:left-[17.5%] flex flex-col md:flex-row justify-around items-center max-container padding-container my-6 sm:rounded-full bg-blue-200/60 z-30 py-3 gap-4 w-full sm:w-[80%] md:w-[75%] lg:w-[70%] xl:w-[65%] backdrop-blur-sm'>
+			<nav className='fixed text-center sm:left-[2.5%] md:left-[10%] lg:left-[17.5%] flex flex-col md:flex-row justify-around items-center max-container padding-container my-6 sm:rounded-full bg-blue-200/60 z-30 py-3 gap-4 w-full sm:w-[95%] md:w-[80%] lg:w-[70%] xl:w-[65%] backdrop-blur-sm'>
 				<div className='flex flex-row justify-around w-full'>
 					<Link
 						href='/'
-						className='flex items-center bg-blue-300/60 px-2 py-0.5 rounded-lg text-slate-800 font-normal text-sm md:text-md'>
-						<span>Diani Beach Podcast</span>
+						className='flex  justify-center items-center bg-blue-300/60 px-2 py-0.5 rounded-lg text-slate-800 font-medium text-sm md:text-md'>
+						<span>LOGO</span>
 					</Link>
 					<ul className='hidden justify-center items-center gap-6 sm:flex flex-row'>
 						{NAV_LINKS.map((link) => (
-							<li className='bg-blue-300/60 px-2 py-0.5 rounded-lg text-slate-800 font-normal text-sm md:text-md'>
+							<li className='bg-blue-300/60 px-2 py-0.5 rounded-lg text-slate-800 font-medium text-sm md:text-md'>
 								<Link
 									href={link.href}
 									key={link.key}>
