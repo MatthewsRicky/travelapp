@@ -3,6 +3,7 @@
 import { NAV_LINKS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 import Button from "./Button";
 import { useState } from "react";
@@ -32,7 +33,10 @@ const Navbar = () => {
 		}
 	};
 	return (
-		<section className='relative'>
+		<motion.section
+			className='relative'
+			initial={{ y: -100, opacity: 0 }}
+			animate={{ y: 0, opacity: 1 }}>
 			<nav className='fixed text-center sm:left-[2.5%] md:left-[10%] lg:left-[17.5%] flex flex-col md:flex-row justify-around items-center max-container padding-container my-3 sm:rounded-full bg-blue-200/60 z-30 py-2 gap-4 w-full sm:w-[95%] md:w-[80%] lg:w-[70%] xl:w-[65%] backdrop-blur-sm'>
 				<div className='flex flex-row justify-around w-full'>
 					<Link
@@ -110,7 +114,7 @@ const Navbar = () => {
 					</ul>
 				</ul>
 			</nav>
-		</section>
+		</motion.section>
 	);
 };
 
