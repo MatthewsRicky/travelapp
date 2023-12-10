@@ -33,12 +33,17 @@ const Navbar = () => {
 		}
 	};
 	return (
-		<motion.section
-			className='relative'
-			initial={{ y: -100, opacity: 0 }}
-			animate={{ y: 0, opacity: 1 }}>
-			<nav className='fixed text-center sm:left-[2.5%] md:left-[10%] lg:left-[17.5%] flex flex-col md:flex-row justify-around items-center max-container padding-container my-3 sm:rounded-full bg-blue-200/60 z-30 py-2 gap-4 w-full sm:w-[95%] md:w-[80%] lg:w-[70%] xl:w-[65%] backdrop-blur-sm'>
-				<div className='flex flex-row justify-around w-full'>
+		<section className='relative'>
+			<motion.nav
+				initial={{ y: -100, opacity: 0 }}
+				animate={{ y: 0, opacity: 1 }}
+				transition={{ duration: 0.5 }}
+				className='fixed text-center sm:left-[2.5%] md:left-[10%] lg:left-[17.5%] flex flex-col md:flex-row justify-around items-center max-container padding-container my-3 sm:rounded-full bg-blue-200/60 z-30 py-2 gap-4 w-full sm:w-[95%] md:w-[80%] lg:w-[70%] xl:w-[65%] backdrop-blur-sm'>
+				<motion.div
+					initial={{ y: -100, opacity: 0 }}
+					animate={{ y: [0, 5, 0], opacity: 1 }}
+					transition={{ duration: 0.8 }}
+					className='flex flex-row justify-around w-full'>
 					<Link
 						href='/'
 						className='flex  justify-center items-center bg-blue-300/60 px-2 py-0.5 rounded-lg text-slate-800 font-medium text-sm md:text-md'>
@@ -56,7 +61,7 @@ const Navbar = () => {
 						))}
 					</ul>
 
-					<div className='flexCenter'>
+					<div className='flexCenter gap-4 relative right-[-10]'>
 						<button>
 							<Link href='/'>
 								<FaUser />
@@ -65,28 +70,30 @@ const Navbar = () => {
 						<button
 							onClick={handleMenuOpen}
 							className={`${
-								!menuOpen ? "sm:hidden flex relative z-30" : "hidden"
+								!menuOpen
+									? "sm:hidden flex relative z-30 duration-300"
+									: "hidden"
 							}`}>
 							<FaBars />
 						</button>
 						<button
 							onClick={handleMenuClose}
 							className={`${
-								!menuOpen ? "hidden" : "sm:hidden flex relative z-30"
+								!menuOpen
+									? "hidden"
+									: "sm:hidden flex relative z-30 duration-300"
 							}`}>
 							<FaAnkh />
 						</button>
 					</div>
-				</div>
+				</motion.div>
 
 				<ul
 					className={`${
-						menuOpen
-							? "flex flex-col flexBetween gap-12 lg:flex sm:hidden"
-							: "hidden"
+						menuOpen ? "flex flex-col flexBetween lg:flex sm:hidden" : "hidden"
 					}`}>
 					{NAV_LINKS.map((link) => (
-						<li>
+						<li className='bg-blue-300/60 w-screen px-2 py-4 rounded-lg text-slate-800 font-medium text-sm md:text-md'>
 							<Link
 								href={link.href}
 								key={link.key}>
@@ -113,8 +120,8 @@ const Navbar = () => {
 						</li>
 					</ul>
 				</ul>
-			</nav>
-		</motion.section>
+			</motion.nav>
+		</section>
 	);
 };
 
