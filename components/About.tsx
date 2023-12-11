@@ -37,7 +37,18 @@ const About = () => {
 				</article>
 			</section>
 			<section>
-				<article></article>
+				<article>
+					<div>
+						<h2>Diani Beach Podcast</h2>
+						<p>
+							Diani Beach Podcast is the ultra-shareable, uber-cool online guide
+							to things to do in Diani Beach. From Kongo River sundowners to
+							swimming with dolphins at Wasini, Diani Beach Podcast Blog is here
+							to help you and your pals discover amazing new places – and create
+							some beautiful memories together along the way. Karibu Diani
+						</p>
+					</div>
+				</article>
 			</section>
 		</main>
 	);
