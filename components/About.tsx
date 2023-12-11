@@ -99,7 +99,9 @@ const About = () => {
 					</div>
 				</article>
 				<div>
-					<button className=' p-4 m-4'>Contact Me</button>
+					<button className='text-center bg-orange-600 rounded-md px-4 py-2 m-4'>
+						Contact Me
+					</button>
 					<ul className='flex gap-3 text-orange-600 p-4 m-4'>
 						{socialIcons.map((icon) => (
 							<li className=''>{icon}</li>
