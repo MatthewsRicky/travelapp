@@ -1,5 +1,13 @@
 import Image from "next/image";
 import React from "react";
+import {
+	FaFacebookF,
+	FaInstagram,
+	FaLinkedin,
+	FaTwitter,
+	FaWordpress,
+	FaYoutube,
+} from "react-icons/fa";
 
 const About = () => {
 	return (
@@ -81,6 +89,17 @@ const About = () => {
 						</p>
 					</div>
 				</article>
+				<div>
+					<button>Contact Me</button>
+					<div>
+						<FaWordpress />
+						<FaFacebookF />
+						<FaTwitter />
+						<FaInstagram />
+						<FaLinkedin />
+						<FaYoutube />
+					</div>
+				</div>
 			</section>
 		</main>
 	);
