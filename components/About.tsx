@@ -3,13 +3,13 @@ import React from "react";
 
 const About = () => {
 	return (
-		<main className='w-[85%]'>
+		<main className='relative flex flex-col justify-center mx-auto w-[85%]'>
 			<section className='flex'>
 				<Image
 					src='/about-libosso.webp'
 					alt='Libosso'
 					width={1000}
-					height={1000}
+					height={500}
 					className='w-[40%]'
 				/>
 				<article>
