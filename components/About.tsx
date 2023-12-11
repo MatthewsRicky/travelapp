@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
 	return (
-		<main>
+		<main className='w-[85%]'>
 			<section className='flex'>
 				<Image
 					src='/about-libosso.webp'
