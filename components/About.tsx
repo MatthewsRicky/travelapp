@@ -48,6 +48,32 @@ const About = () => {
 							some beautiful memories together along the way. Karibu Diani
 						</p>
 					</div>
+					<div>
+						<h2>Ethics and Transparency.</h2>
+						<p>
+							We will always aim to give honest and sincere recommendations that
+							our readers can trust. Diani Beach Podcast Blog is sometimes
+							invited to test experiences that are free of charge. Through some
+							partnerships, we are eligible to receive a small commission.
+						</p>
+					</div>
+					<div>
+						<h2>Partner With Us.</h2>
+						<p>
+							Need to cause a spark with your next campaign? Our audience of
+							urban adventurers loves to visit new places and try new things –
+							and they bring their friends with them! Email us today with
+							requests, tips, news, invites, PR requests, submissions,
+							complaints, corrections, copyright issues, and funny cat GIFs;
+							trinitystarfamily@gmail.com. Drop us a line, Mpesa tips or
+							Whatsapp us; +254716659166. *Diani Beach Podcast Blog is based at
+							Darad, off Diani Beach Road. *Advertising Rate card coming soon!
+							To find out how Diani Beach Podcast can make your next project the
+							talk of the town, email us; trinitystarfamily@gmail.com. *Diani
+							Beach Podcast Blog lifestyle experience and merchandises coming
+							soon.
+						</p>
+					</div>
 				</article>
 			</section>
 		</main>
