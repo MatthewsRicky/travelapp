@@ -4,13 +4,13 @@ import React from "react";
 const About = () => {
 	return (
 		<main className='relative flex flex-col justify-center mx-auto w-[85%]'>
-			<section className='flex'>
+			<section className='flex gap-8'>
 				<Image
 					src='/about-libosso.webp'
 					alt='Libosso'
 					width={1000}
-					height={500}
-					className='w-[40%]'
+					height={200}
+					className='w-[40%] h-[45%]'
 				/>
 				<article>
 					<h1>Meet The Author.</h1>
