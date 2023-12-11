@@ -100,7 +100,11 @@ const About = () => {
 				</article>
 				<div>
 					<button>Contact Me</button>
-					<div></div>
+					<ul>
+						{socialIcons.map(() => (
+							<li>{socialIcons}</li>
+						))}
+					</ul>
 				</div>
 			</section>
 		</main>
