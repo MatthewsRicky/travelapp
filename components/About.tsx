@@ -101,8 +101,8 @@ const About = () => {
 				<div>
 					<button>Contact Me</button>
 					<ul>
-						{socialIcons.map(() => (
-							<li>{socialIcons}</li>
+						{socialIcons.map((icon) => (
+							<li>{icon}</li>
 						))}
 					</ul>
 				</div>
