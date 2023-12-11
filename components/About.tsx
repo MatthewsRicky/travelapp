@@ -99,10 +99,10 @@ const About = () => {
 					</div>
 				</article>
 				<div>
-					<button>Contact Me</button>
-					<ul className='flex gap-3 text-orange-300'>
+					<button className=' p-4 m-4'>Contact Me</button>
+					<ul className='flex gap-3 text-orange-600 p-4 m-4'>
 						{socialIcons.map((icon) => (
-							<li>{icon}</li>
+							<li className=''>{icon}</li>
 						))}
 					</ul>
 				</div>
