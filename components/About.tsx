@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
 	return (
-		<main className='relative flex flex-col justify-center mx-auto w-[85%]'>
+		<main className='relative flex flex-col justify-center mx-auto w-[85%] mt-24'>
 			<section className='flex gap-8'>
 				<Image
 					src='/about-libosso.webp'
@@ -12,7 +12,7 @@ const About = () => {
 					height={200}
 					className='w-[40%] h-[45%]'
 				/>
-				<article>
+				<article className='flex flex-col justify-center text-center items-center flex-wrap gap-8'>
 					<h1>Meet The Author.</h1>
 					<p>
 						Embukane Vincent Libosso Bengoh started his career at the beginning
