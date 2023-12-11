@@ -1,5 +1,6 @@
 import { BLOG_SECTION } from "@/constants";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { FaBlog } from "react-icons/fa";
 
@@ -34,7 +35,14 @@ const BlogCard = ({ src, alt, title, description }: blogItems) => {
 								<h1 className='bold-32 px-2 py-3 shadow-sm rounded-md shadow-orange-300  flex text-center text-md my-3 items'>
 									{blog.title}
 								</h1>
-								<p className='mb-4 p-4 text-center'>{blog.description}</p>
+								<p className='mb-4 p-4 text-center'>
+									{blog.description}
+									<Link
+										href='/'
+										className='text-orange-500 hover:underline'>
+										<p>...Continue Reading</p>
+									</Link>
+								</p>
 							</div>
 						</div>
 					</article>
