@@ -4,8 +4,13 @@ import React from "react";
 const About = () => {
 	return (
 		<main>
-			<section>
-				<Image />
+			<section className='flex'>
+				<Image
+					src='/about-libosso.webp'
+					alt='Libosso'
+					width={1000}
+					height={1000}
+				/>
 				<article>
 					<h1>Meet The Author.</h1>
 					<p>
