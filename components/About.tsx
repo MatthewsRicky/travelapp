@@ -10,6 +10,15 @@ import {
 } from "react-icons/fa";
 
 const About = () => {
+	const socialIcons = [
+		<FaWordpress />,
+		<FaFacebookF />,
+		<FaTwitter />,
+		<FaInstagram />,
+		<FaLinkedin />,
+		<FaYoutube />,
+	];
+
 	return (
 		<main className='relative flex flex-col justify-center mx-auto w-[85%] mt-24'>
 			<section className='flex gap-8'>
@@ -91,14 +100,7 @@ const About = () => {
 				</article>
 				<div>
 					<button>Contact Me</button>
-					<div>
-						<FaWordpress />
-						<FaFacebookF />
-						<FaTwitter />
-						<FaInstagram />
-						<FaLinkedin />
-						<FaYoutube />
-					</div>
+					<div></div>
 				</div>
 			</section>
 		</main>
