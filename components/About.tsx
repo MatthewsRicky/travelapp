@@ -100,7 +100,7 @@ const About = () => {
 				</article>
 				<div>
 					<button>Contact Me</button>
-					<ul>
+					<ul className='flex gap-3 text-orange-300'>
 						{socialIcons.map((icon) => (
 							<li>{icon}</li>
 						))}
