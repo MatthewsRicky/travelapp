@@ -10,6 +10,7 @@ const About = () => {
 					alt='Libosso'
 					width={1000}
 					height={1000}
+					className='w-[40%]'
 				/>
 				<article>
 					<h1>Meet The Author.</h1>
