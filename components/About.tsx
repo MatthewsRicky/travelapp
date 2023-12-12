@@ -31,28 +31,29 @@ const About = () => {
 					className='w-[40%] h-[45%] flex justify-center items-center mx-auto'
 				/>
 				<article className='flex flex-col justify-center text-center items-center flex-wrap gap-8'>
-					<h1>Meet The Author.</h1>
+					<h1 className='font-bold text-xl text-blue-500'>Meet The Author.</h1>
 					<p>
 						Embukane Vincent Libosso Bengoh started his career at the beginning
 						of 2010 as a blogger, after a one month training at{" "}
 						<Link
 							href='/'
-							className='text-blue-500 hover:text-orange-500 hover:underline'>
+							className='text-blue-500 hover:text-orange-500 hover:underline transition-300'>
 							Nation Media Group
 						</Link>{" "}
 						in August. With a vast grasp in the events and entertainment
 						industry,{" "}
 						<Link
 							href='/'
-							className='text-blue-500 hover:text-orange-500 hover:underline'>
+							className='text-blue-500 hover:text-orange-500 hover:underline transition-300'>
 							Kenya Buzz
 						</Link>{" "}
 						and later on, <Link href='/'>UP Magazine</Link> came calling. From a
 						staff writer, he rose to an online Digital Content Manager. He
-						worked there for a year (2015) before taking on a new challenge at
+						worked there for a year (2015) before taking on a new challenge at{" "}
 						<Link
 							href='/'
-							className='text-blue-500 hover:text-orange-500 hover:underline'>
+							className='text-blue-500 hover:text-orange-500 hover:underline transition-300'
+							transition-300>
 							What’s Good Studios.
 						</Link>
 					</p>
@@ -60,13 +61,13 @@ const About = () => {
 						In 2017, he graduated with a Diploma in Communication from{" "}
 						<Link
 							href='/'
-							className='text-blue-500 hover:text-orange-500 hover:underline'>
+							className='text-blue-500 hover:text-orange-500 hover:underline transition-300'>
 							Daystar University.
 						</Link>{" "}
 						At{" "}
 						<Link
 							href='/'
-							className='text-blue-500 hover:text-orange-500 hover:underline'>
+							className='text-blue-500 hover:text-orange-500 hover:underline transition-300'>
 							What’s Good Studios.
 						</Link>{" "}
 						he took on the roles on online Managing Editor for their publishing
@@ -82,7 +83,7 @@ const About = () => {
 						Vinny Puppa Rankin received the prestigious{" "}
 						<Link
 							href='/'
-							className='text-blue-500 hover:text-orange-500 hover:underline'>
+							className='text-blue-500 hover:text-orange-500 hover:underline transition-300'>
 							2020 Sondeka Award for Best Online Radio and Podcast award for
 							their straight reggae and dancehall show, #LazeReggae Invasion
 							Podcast.
