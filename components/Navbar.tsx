@@ -46,12 +46,12 @@ const Navbar = () => {
 					className='flex flex-row justify-around w-full'>
 					<Link
 						href='/'
-						className='flex  justify-center items-center bg-blue-300/60 px-2 py-0.5 rounded-lg text-slate-800 font-medium text-sm md:text-md'>
+						className='flex  justify-center items-center bg-blue-300/60 px-2 py-0.5 rounded-md text-slate-800 font-medium text-sm md:text-md'>
 						<span>LOGO</span>
 					</Link>
 					<ul className='hidden justify-center items-center gap-6 sm:flex flex-row'>
 						{NAV_LINKS.map((link) => (
-							<li className='bg-blue-300/60 px-2 py-0.5 rounded-lg text-slate-800 font-medium text-sm md:text-md'>
+							<li className='bg-blue-300/60 px-2 py-0.5 rounded-md text-slate-800 font-medium text-sm md:text-md'>
 								<Link
 									href={link.href}
 									key={link.key}>
