@@ -35,29 +35,58 @@ const About = () => {
 					<p>
 						Embukane Vincent Libosso Bengoh started his career at the beginning
 						of 2010 as a blogger, after a one month training at{" "}
-						<Link href='/'>Nation Media Group</Link> in August. With a vast
-						grasp in the events and entertainment industry,{" "}
-						<Link href='/'>Kenya Buzz</Link> and later on,{" "}
-						<Link href='/'>UP Magazine</Link> came calling. From a staff writer,
-						he rose to an online Digital Content Manager. He worked there for a
-						year (2015) before taking on a new challenge at
-						<Link href='/'>What’s Good Studios.</Link>
+						<Link
+							href='/'
+							className='text-blue-500 hover:text-orange-500 hover:underline'>
+							Nation Media Group
+						</Link>{" "}
+						in August. With a vast grasp in the events and entertainment
+						industry,{" "}
+						<Link
+							href='/'
+							className='text-blue-500 hover:text-orange-500 hover:underline'>
+							Kenya Buzz
+						</Link>{" "}
+						and later on, <Link href='/'>UP Magazine</Link> came calling. From a
+						staff writer, he rose to an online Digital Content Manager. He
+						worked there for a year (2015) before taking on a new challenge at
+						<Link
+							href='/'
+							className='text-blue-500 hover:text-orange-500 hover:underline'>
+							What’s Good Studios.
+						</Link>
 					</p>
 					<p>
-						In 2017, he graduated with a Diploma in Communication from Daystar
-						University. At What’s Good Studios he took on the roles on online
-						Managing Editor for their publishing platform, an online radio and
-						TV host. Libosso, better known as The Events Kahuna is not new to
-						the heavy-atmosphere of Nairobi’s Digital airwaves (often
-						crisscrossing into Uganda with Festival coverage and celebrity
-						interviews). The key to his success has been an unsinkable passion
-						for radio, TV, content marketing and creation, music and people.
+						In 2017, he graduated with a Diploma in Communication from{" "}
+						<Link
+							href='/'
+							className='text-blue-500 hover:text-orange-500 hover:underline'>
+							Daystar University.
+						</Link>{" "}
+						At{" "}
+						<Link
+							href='/'
+							className='text-blue-500 hover:text-orange-500 hover:underline'>
+							What’s Good Studios.
+						</Link>{" "}
+						he took on the roles on online Managing Editor for their publishing
+						platform, an online radio and TV host. Libosso, better known as The
+						Events Kahuna is not new to the heavy-atmosphere of Nairobi’s
+						Digital airwaves (often crisscrossing into Uganda with Festival
+						coverage and celebrity interviews). The key to his success has been
+						an unsinkable passion for radio, TV, content marketing and creation,
+						music and people.
 					</p>
 					<p>
 						In 2020, alongside co-presenters Rafiiki and Blak Ice, Libosso aka
-						Vinny Puppa Rankin received the prestigious 2020 Sondeka Award for
-						Best Online Radio and Podcast award for their straight reggae and
-						dancehall show, #LazeReggae Invasion Podcast.
+						Vinny Puppa Rankin received the prestigious{" "}
+						<Link
+							href='/'
+							className='text-blue-500 hover:text-orange-500 hover:underline'>
+							2020 Sondeka Award for Best Online Radio and Podcast award for
+							their straight reggae and dancehall show, #LazeReggae Invasion
+							Podcast.
+						</Link>
 					</p>
 					<button className='text-center bg-orange-500 rounded-md px-4 py-2 text-white m-4'>
 						Contact Me
