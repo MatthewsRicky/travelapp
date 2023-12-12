@@ -95,8 +95,8 @@ const About = () => {
 				</article>
 			</section>
 			<section className='flex flex-col gap-8'>
-				<article className='flex flex-col justify-center items-start mx-auto'>
-					<div>
+				<article className='flex flex-col justify-center items-start mx-auto text-center gap-8'>
+					<div className=''>
 						<h2>Diani Beach Podcast</h2>
 						<p>
 							Diani Beach Podcast is the ultra-shareable, uber-cool online guide
