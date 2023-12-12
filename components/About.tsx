@@ -52,8 +52,7 @@ const About = () => {
 						worked there for a year (2015) before taking on a new challenge at{" "}
 						<Link
 							href='/'
-							className='text-blue-500 hover:text-orange-500 hover:underline transition-300'
-							transition-300>
+							className='text-blue-500 hover:text-orange-500 hover:underline transition-300'>
 							What’s Good Studios.
 						</Link>
 					</p>
@@ -97,7 +96,9 @@ const About = () => {
 			<section className='flex flex-col gap-8'>
 				<article className='flex flex-col justify-center items-start mx-auto text-center gap-8'>
 					<div className=''>
-						<h2>Diani Beach Podcast</h2>
+						<h2 className='font-bold text-xl text-blue-500'>
+							Diani Beach Podcast
+						</h2>
 						<p>
 							Diani Beach Podcast is the ultra-shareable, uber-cool online guide
 							to things to do in Diani Beach. From Kongo River sundowners to
@@ -107,7 +108,9 @@ const About = () => {
 						</p>
 					</div>
 					<div>
-						<h2>Ethics and Transparency.</h2>
+						<h2 className='font-bold text-xl text-blue-500'>
+							Ethics and Transparency.
+						</h2>
 						<p>
 							We will always aim to give honest and sincere recommendations that
 							our readers can trust. Diani Beach Podcast Blog is sometimes
@@ -116,20 +119,31 @@ const About = () => {
 						</p>
 					</div>
 					<div>
-						<h2>Partner With Us.</h2>
+						<h2 className='font-bold text-xl text-blue-500'>
+							Partner With Us.
+						</h2>
 						<p>
 							Need to cause a spark with your next campaign? Our audience of
 							urban adventurers loves to visit new places and try new things –
 							and they bring their friends with them! Email us today with
 							requests, tips, news, invites, PR requests, submissions,
 							complaints, corrections, copyright issues, and funny cat GIFs;
-							<Link href='/'>trinitystarfamily@gmail.com</Link>. Drop us a line,
-							Mpesa tips or Whatsapp us; <b>+254716659166</b>. *Diani Beach
-							Podcast Blog is based at Darad, off Diani Beach Road. *Advertising
-							Rate card coming soon! To find out how Diani Beach Podcast can
-							make your next project the talk of the town, email us;
-							trinitystarfamily@gmail.com. *Diani Beach Podcast Blog lifestyle
-							experience and merchandises coming soon.
+							<Link
+								href='/'
+								className='text-blue-500 hover:text-orange-500 hover:underline transition-300'>
+								trinitystarfamily@gmail.com
+							</Link>
+							. Drop us a line, Mpesa tips or Whatsapp us; <b>+254716659166</b>.
+							*Diani Beach Podcast Blog is based at Darad, off Diani Beach Road.
+							*Advertising Rate card coming soon! To find out how Diani Beach
+							Podcast can make your next project the talk of the town, email us;
+							<Link
+								href='/'
+								className='text-blue-500 hover:text-orange-500 hover:underline transition-300'>
+								trinitystarfamily@gmail.com
+							</Link>
+							. *Diani Beach Podcast Blog lifestyle experience and merchandises
+							coming soon.
 						</p>
 					</div>
 				</article>
