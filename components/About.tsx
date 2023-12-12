@@ -21,7 +21,7 @@ const About = () => {
 	];
 
 	return (
-		<main className='relative flex flex-col justify-center mx-auto w-[85%] mt-24'>
+		<main className='hero relative flex flex-col justify-center mx-auto w-[85%] mt-24'>
 			<section className='flex flex-col sm:flex-row gap-8'>
 				<Image
 					src='/about-libosso.webp'
@@ -94,7 +94,7 @@ const About = () => {
 					</button>
 				</article>
 			</section>
-			<section>
+			<section className='flex flex-col gap-8'>
 				<article>
 					<div>
 						<h2>Diani Beach Podcast</h2>
