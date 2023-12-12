@@ -56,7 +56,9 @@ const About = () => {
 						Best Online Radio and Podcast award for their straight reggae and
 						dancehall show, #LazeReggae Invasion Podcast.
 					</p>
-					<button>Contact Me</button>
+					<button className='text-center bg-orange-500 rounded-md px-4 py-2 text-white m-4'>
+						Contact Me
+					</button>
 				</article>
 			</section>
 			<section>
