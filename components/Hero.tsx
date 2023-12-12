@@ -4,7 +4,7 @@ import Image from "next/image";
 import Button from "./Button";
 const Hero = () => {
 	return (
-		<section className='relative z-100 max-container video-background p flex flex-col justify-center items-center gap-6 py-10'>
+		<section className='relative z-100 max-container video-background flex flex-col justify-center items-center gap-6 py-10'>
 			<video
 				autoPlay
 				loop
