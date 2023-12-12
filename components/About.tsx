@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import {
 	FaFacebookF,
@@ -21,24 +22,26 @@ const About = () => {
 
 	return (
 		<main className='relative flex flex-col justify-center mx-auto w-[85%] mt-24'>
-			<section className='flex gap-8'>
+			<section className='flex flex-col sm:flex-row gap-8'>
 				<Image
 					src='/about-libosso.webp'
 					alt='Libosso'
 					width={1000}
 					height={200}
-					className='w-[40%] h-[45%]'
+					className='w-[40%] h-[45%] flex justify-center items-center mx-auto'
 				/>
 				<article className='flex flex-col justify-center text-center items-center flex-wrap gap-8'>
 					<h1>Meet The Author.</h1>
 					<p>
 						Embukane Vincent Libosso Bengoh started his career at the beginning
-						of 2010 as a blogger, after a one month training at Nation Media
-						Group in August. With a vast grasp in the events and entertainment
-						industry, Kenya Buzz and later on, UP Magazine came calling. From a
-						staff writer, he rose to an online Digital Content Manager. He
-						worked there for a year (2015) before taking on a new challenge at
-						What’s Good Studios.
+						of 2010 as a blogger, after a one month training at{" "}
+						<Link href='/'>Nation Media Group</Link> in August. With a vast
+						grasp in the events and entertainment industry,{" "}
+						<Link href='/'>Kenya Buzz</Link> and later on,{" "}
+						<Link href='/'>UP Magazine</Link> came calling. From a staff writer,
+						he rose to an online Digital Content Manager. He worked there for a
+						year (2015) before taking on a new challenge at
+						<Link href='/'>What’s Good Studios.</Link>
 					</p>
 					<p>
 						In 2017, he graduated with a Diploma in Communication from Daystar
