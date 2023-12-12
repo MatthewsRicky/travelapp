@@ -123,13 +123,13 @@ const About = () => {
 							and they bring their friends with them! Email us today with
 							requests, tips, news, invites, PR requests, submissions,
 							complaints, corrections, copyright issues, and funny cat GIFs;
-							trinitystarfamily@gmail.com. Drop us a line, Mpesa tips or
-							Whatsapp us; +254716659166. *Diani Beach Podcast Blog is based at
-							Darad, off Diani Beach Road. *Advertising Rate card coming soon!
-							To find out how Diani Beach Podcast can make your next project the
-							talk of the town, email us; trinitystarfamily@gmail.com. *Diani
-							Beach Podcast Blog lifestyle experience and merchandises coming
-							soon.
+							<Link href='/'>trinitystarfamily@gmail.com</Link>. Drop us a line,
+							Mpesa tips or Whatsapp us; <b>+254716659166</b>. *Diani Beach
+							Podcast Blog is based at Darad, off Diani Beach Road. *Advertising
+							Rate card coming soon! To find out how Diani Beach Podcast can
+							make your next project the talk of the town, email us;
+							trinitystarfamily@gmail.com. *Diani Beach Podcast Blog lifestyle
+							experience and merchandises coming soon.
 						</p>
 					</div>
 				</article>
