@@ -153,14 +153,12 @@ const About = () => {
 							<FaTwitter />
 						</li>
 						<li>
-							{" "}
 							<FaInstagram />
 						</li>
 						<li>
 							<FaLinkedin />
 						</li>
 						<li>
-							{" "}
 							<FaYoutube />
 						</li>
 					</ul>
