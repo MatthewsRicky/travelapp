@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SideBar from "@/components/SideBar";
 
 export const metadata: Metadata = {
 	title: "Diani Travel Guide",
@@ -19,6 +20,7 @@ export default function RootLayout({
 		<html lang='en'>
 			<body className='hide-scrollbar'>
 				<Navbar />
+				<SideBar />
 				<main className='relative overflow-hidden'>{children}</main>
 
 				<Footer />
