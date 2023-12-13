@@ -4,9 +4,9 @@ import React from "react";
 
 const SideBar = () => {
 	return (
-		<section>
-			<nav>
-				<ul className='hidden justify-center items-center gap-6 sm:flex flex-row'>
+		<section className='relative'>
+			<nav className='fixed z-200 left-0 right-[60%]'>
+				<ul className='justify-center items-center gap-6 flex flex-col'>
 					{SIDEBAR_LINKS.map((link) => (
 						<li className='bg-blue-300/60 px-2 py-0.5 rounded-md text-slate-800 font-medium text-sm md:text-md'>
 							<Link
