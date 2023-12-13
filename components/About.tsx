@@ -140,7 +140,7 @@ const About = () => {
 							<Link
 								href='/'
 								className='text-blue-500 hover:text-orange-500 hover:underline transition-300'>
-								trinitystarfamily@gmail.com
+								<p>trinitystarfamily@gmail.com</p>
 							</Link>
 							. *Diani Beach Podcast Blog lifestyle experience and merchandises
 							coming soon.
