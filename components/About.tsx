@@ -11,15 +11,6 @@ import {
 } from "react-icons/fa";
 
 const About = () => {
-	const socialIcons = [
-		<FaWordpress />,
-		<FaFacebookF />,
-		<FaTwitter />,
-		<FaInstagram />,
-		<FaLinkedin />,
-		<FaYoutube />,
-	];
-
 	return (
 		<main className='hero relative flex flex-col justify-center mx-auto w-[85%] mt-24'>
 			<section className='flex flex-col sm:flex-row gap-8'>
@@ -131,7 +122,7 @@ const About = () => {
 							<Link
 								href='/'
 								className='text-blue-500 hover:text-orange-500 hover:underline transition-300'>
-								trinitystarfamily@gmail.com
+								<p>trinitystarfamily@gmail.com</p>
 							</Link>
 							. Drop us a line, Mpesa tips or Whatsapp us; <b>+254716659166</b>.
 							*Diani Beach Podcast Blog is based at Darad, off Diani Beach Road.
@@ -152,9 +143,26 @@ const About = () => {
 						Contact Me
 					</button>
 					<ul className='flex gap-3 text-orange-500 p-4 m-4'>
-						{socialIcons.map((icon) => (
-							<li className=''>{icon}</li>
-						))}
+						<li>
+							<FaWordpress />
+						</li>
+						<li>
+							<FaFacebookF />
+						</li>
+						<li>
+							<FaTwitter />
+						</li>
+						<li>
+							{" "}
+							<FaInstagram />
+						</li>
+						<li>
+							<FaLinkedin />
+						</li>
+						<li>
+							{" "}
+							<FaYoutube />
+						</li>
 					</ul>
 				</div>
 			</section>
