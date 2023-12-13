@@ -5,11 +5,11 @@ export const NAV_LINKS = [
 
 	{ href: "/about", key: "About", label: "About" },
 
-	{ href: "/", key: "Blog", label: "Blog" },
+	{ href: "/blog", key: "Blog", label: "Blog" },
 
-	{ href: "/", key: "Directory", label: "Directory" },
+	{ href: "/directory", key: "Directory", label: "Directory" },
 
-	{ href: "/", key: "Categories", label: "Categories" },
+	{ href: "/categories", key: "Categories", label: "Categories" },
 ];
 
 export const SIDEBAR_LINKS = [
