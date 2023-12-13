@@ -13,13 +13,17 @@ export const NAV_LINKS = [
 ];
 
 export const SIDEBAR_LINKS = [
-	{ href: "/", key: "Things To Do", label: "Things To Do" },
-	{ href: "/", key: "Wellness", label: "Wellness" },
-	{ href: "/", key: "The Audio X", label: "The Audio X" },
-	{ href: "/", key: "My Living List", label: "My Living List" },
-	{ href: "/", key: "Food", label: "Food" },
-	{ href: "/", key: "Events", label: "Events" },
-	{ href: "/", key: "Bars and Nightlife", label: "Bars and Nightlife" },
+	{ href: "/thingstodo", key: "Things To Do", label: "Things To Do" },
+	{ href: "/wellness", key: "Wellness", label: "Wellness" },
+	{ href: "/theaudiox", key: "The Audio X", label: "The Audio X" },
+	{ href: "/mylivinglist", key: "My Living List", label: "My Living List" },
+	{ href: "/food", key: "Food", label: "Food" },
+	{ href: "/events", key: "Events", label: "Events" },
+	{
+		href: "/barsandnightlife",
+		key: "Bars and Nightlife",
+		label: "Bars and Nightlife",
+	},
 ];
 
 // CAMP SECTION
