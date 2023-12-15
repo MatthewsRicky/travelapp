@@ -20,7 +20,6 @@ export default function RootLayout({
 		<html lang='en'>
 			<body className='hide-scrollbar'>
 				<Navbar />
-				<SideBar />
 				<main className='relative overflow-hidden'>{children}</main>
 
 				<Footer />
