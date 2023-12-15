@@ -17,7 +17,6 @@ import {
 	FaInstagram,
 	FaTwitter,
 } from "react-icons/fa";
-import Socials from "./Socials";
 
 const Navbar = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
