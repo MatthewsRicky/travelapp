@@ -1,3 +1,5 @@
+"use client";
+
 import { SIDEBAR_LINKS } from "@/constants";
 import { motion } from "framer-motion";
 import Link from "next/link";
