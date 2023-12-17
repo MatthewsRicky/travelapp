@@ -43,11 +43,6 @@ const Navbar = () => {
 					animate={{ y: [0, 5, 0], opacity: 1 }}
 					transition={{ duration: 0.6 }}
 					className='flex flex-row justify-around w-full'>
-					<Link
-						href='/'
-						className='flex  justify-center items-center bg-blue-300/60 px-2 py-0.5 rounded-md text-slate-800 font-medium text-sm md:text-md'>
-						<span>LOGO</span>
-					</Link>
 					<ul className='hidden justify-center items-center gap-6 sm:flex flex-row'>
 						{NAV_LINKS.map((link) => (
 							<li className='bg-blue-300/60 px-2 py-0.5 rounded-md text-slate-800 font-medium text-sm md:text-md'>
@@ -79,11 +74,12 @@ const Navbar = () => {
 							}`}>
 							<FaAnkh />
 						</button>
-						<button>
-							<Link href='/'>
+
+						<Link href='/'>
+							<button>
 								<FaUser />
-							</Link>
-						</button>
+							</button>
+						</Link>
 					</div>
 				</motion.div>
 
