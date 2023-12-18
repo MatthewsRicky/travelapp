@@ -3,7 +3,7 @@
 import { SIDEBAR_LINKS } from "@/constants";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import React, { Fragment, useState } from "react";
+import React, { useState } from "react";
 import { FaAnchor } from "react-icons/fa";
 
 const SideBar = () => {
