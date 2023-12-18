@@ -7,7 +7,7 @@ import React, { useState } from "react";
 import { FaAnchor } from "react-icons/fa";
 
 const SideBar = () => {
-	const [sideopen, setSideOpen] = useState(false);
+	const [sideopen, setSideOpen] = useState(true);
 
 	const handleSideBar = (setSideOpen: any) => {
 		if (sideopen) {
@@ -17,15 +17,13 @@ const SideBar = () => {
 
 	return (
 		<section className='relative'>
-			<div
+			<button
 				className={`${
-					sideopen
-						? "fixed text-center left-[2%] top-[27%] flex flex-col justify-between sm:justify-around items-center max-container padding-container my-3 rounded-md  z-30 py-2 gap-4 w-[18%] backdrop-blur-sm"
-						: "hidden"
+					sideopen ? "fixed z-40 h-[20px] w-[20] top-[49%] left-12" : "hidden"
 				}`}
 				onClick={handleSideBar}>
 				<FaAnchor />
-			</div>
+			</button>
 
 			<nav
 				className={`${
