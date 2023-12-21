@@ -12,6 +12,8 @@ const SideBar = () => {
 	const handleSideBar = () => {
 		if (sideopen) {
 			setSideOpen = true;
+		} else {
+			setSideOpen = false;
 		}
 	};
 
