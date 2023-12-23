@@ -22,7 +22,7 @@ const SideBar = () => {
 			<button
 				className={`${
 					!sideopen
-						? "fixed z-40 h-[20px] w-[20] top-[49%] left-12 bg-blue-800 text-white p-6 justify-center flex items-center rounded-md"
+						? "fixed z-40 h-[20px] w-[20] top-[49%] left-12 bg-blue-800/80 text-white p-6 justify-center flex items-center rounded-md"
 						: "hidden"
 				}`}
 				onClick={handleSideBar}>
