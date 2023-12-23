@@ -21,7 +21,9 @@ const SideBar = () => {
 		<section className='relative'>
 			<button
 				className={`${
-					!sideopen ? "fixed z-40 h-[20px] w-[20] top-[49%] left-12" : "hidden"
+					!sideopen
+						? "fixed z-40 h-[20px] w-[20] top-[49%] left-12 bg-blue-800 text-wgite"
+						: "hidden"
 				}`}
 				onClick={handleSideBar}>
 				<FaAnchor />
