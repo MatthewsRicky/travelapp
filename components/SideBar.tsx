@@ -26,7 +26,9 @@ const SideBar = () => {
 						: "hidden"
 				}`}
 				onClick={handleSideBar}>
-				<FaAnchor />
+				<span className='m-4 p-4'>
+					<FaAnchor />
+				</span>
 			</button>
 
 			<nav
