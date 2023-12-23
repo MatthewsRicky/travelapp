@@ -22,13 +22,11 @@ const SideBar = () => {
 			<button
 				className={`${
 					!sideopen
-						? "fixed z-40 h-[20px] w-[20] top-[49%] left-12 bg-blue-800 text-wgite"
+						? "fixed z-40 h-[20px] w-[20] top-[49%] left-12 bg-blue-800 text-white"
 						: "hidden"
 				}`}
 				onClick={handleSideBar}>
-				<span className='m-4 p-4'>
-					<FaAnchor />
-				</span>
+				<FaAnchor />
 			</button>
 
 			<nav
