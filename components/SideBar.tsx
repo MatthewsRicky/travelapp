@@ -9,11 +9,9 @@ import { FaAnchor } from "react-icons/fa";
 const SideBar = () => {
 	const [sideopen, setSideOpen] = useState(false);
 
-	const handleSideBar = (setSideOpen) => {
+	const handleSideBar = (setSideOpen: any) => {
 		if (sideopen) {
 			setSideOpen = true;
-		} else {
-			setSideOpen = false;
 		}
 	};
 
