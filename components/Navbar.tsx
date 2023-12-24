@@ -37,7 +37,7 @@ const Navbar = () => {
 				initial={{ y: -100, opacity: 0 }}
 				animate={{ y: 0, opacity: 1 }}
 				transition={{ duration: 0.5 }}
-				className='fixed text-center sm:left-[2.5%] md:left-[10%] lg:left-[17.5%] flex flex-col md:flex-row justify-between sm:justify-around items-center max-container padding-container my-3 sm:rounded-full bg-blue-800/80 z-30 py-2 gap-4 w-full sm:w-[95%] md:w-[80%] lg:w-[70%] xl:w-[65%] backdrop-blur-sm'>
+				className='fixed text-center sm:left-[2.5%] md:left-[10%] lg:left-[17.5%] flex flex-col md:flex-row justify-between sm:justify-around items-center max-container padding-container my-3 sm:rounded-full bg-slate-100/40 z-30 py-2 gap-4 w-full sm:w-[95%] md:w-[80%] lg:w-[70%] xl:w-[65%] backdrop-blur-sm'>
 				<motion.div
 					initial={{ y: -100, opacity: 0 }}
 					animate={{ y: [0, 5, 0], opacity: 1 }}
@@ -45,7 +45,7 @@ const Navbar = () => {
 					className='flex flex-row justify-around w-full'>
 					<ul className='hidden justify-center items-center gap-6 sm:flex flex-row'>
 						{NAV_LINKS.map((link) => (
-							<li className='bg-blue-300/60 px-2 py-0.5 rounded-md text-slate-200 font-medium text-sm md:text-md'>
+							<li className='bg-slate-300/60 px-2 py-0.5 rounded-md text-slate-200 font-medium text-sm md:text-md'>
 								<Link
 									href={link.href}
 									key={link.key}>
