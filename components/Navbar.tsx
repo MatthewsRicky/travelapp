@@ -76,7 +76,7 @@ const Navbar = () => {
 						</button>
 
 						<Link href='/'>
-							<button>
+							<button className='bg-slate-100 p-2 rounded-full'>
 								<FaUser />
 							</button>
 						</Link>
