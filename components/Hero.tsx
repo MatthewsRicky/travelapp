@@ -16,7 +16,7 @@ const Hero = () => {
 			</video>
 
 			<div className='relative flex flex-col'>
-				<div className='justify-around items-center relative mx-auto flex z-20 sm:w-[85%] flex-col sm:flex-row gap-4 px-3 py-3 rounded-lg shadow-2xl'>
+				<div className='justify-around items-center relative mx-auto flex z-20 sm:w-[85%] flex-col sm:flex-row gap-4 px-3 py-3 rounded-lg shadow-2xl backdrop-blur-sm'>
 					<div className='hidden sm:flex z-20'>
 						<Image
 							src='/libosso_profile.webp'
