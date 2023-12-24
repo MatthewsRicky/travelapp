@@ -30,7 +30,7 @@ const Hero = () => {
 						<h1 className=' backdrop-blur-xs text-white text-center uppercase font-bold text-lg p-4 rounded-md'>
 							Diani Beach Podcast
 						</h1>
-						<p className='bold-24 backdrop-blur-md px-2 py-4 rounded-lg mt-2 sm:mt-6 text-center bg-blue-800/80 text-blue-200 shadow-lg xl:max-w-[720px]'>
+						<p className='bold-24 backdrop-blur-md px-2 py-4 rounded-lg mt-2 sm:mt-6 text-center bg-blue-800/60 text-blue-200 shadow-lg xl:max-w-[720px]'>
 							Diani Beach Podcast is the ultra-shareable, uber-cool online guide
 							to things to do in Diani Beach.
 						</p>
