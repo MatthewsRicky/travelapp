@@ -1,11 +1,14 @@
 import React from "react";
-import { FaSun } from "react-icons/fa";
+import { FaMoon, FaSun } from "react-icons/fa";
 
 const Theme = () => {
 	return (
 		<section>
 			<button>
 				<FaSun />
+			</button>
+			<button>
+				<FaMoon />
 			</button>
 		</section>
 	);
