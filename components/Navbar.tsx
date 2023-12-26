@@ -76,7 +76,7 @@ const Navbar = () => {
 						</button>
 
 						<Link href='/'>
-							<button className='bg-orange-500/80 hover:bg-blue-300/60 hover:scale-105 p-2 rounded-full text-slate-100 font-medium text-sm md:text-md transition-all duration-300'>
+							<button className='bg-orange-500/80 hover:bg-blue-300/60 hover:scale-105 p-2 rounded-full hover:text-slate-700 text-slate-100 font-medium text-sm md:text-md transition-all duration-300'>
 								<FaUser />
 							</button>
 						</Link>
@@ -88,7 +88,7 @@ const Navbar = () => {
 						menuOpen ? "flex flex-col flexBetween lg:flex sm:hidden" : "hidden"
 					}`}>
 					{NAV_LINKS.map((link) => (
-						<li className='bg-blue-300/60 w-screen px-2 py-4 rounded-lg text-slate-800 font-medium text-sm md:text-md'>
+						<li className='bg-blue-300/60 w-screen px-2 py-4 rounded-lg text-slate-700 font-medium text-sm md:text-md'>
 							<Link
 								href={link.href}
 								key={link.key}>
