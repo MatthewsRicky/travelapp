@@ -76,7 +76,7 @@ const Navbar = () => {
 						</button>
 
 						<Link href='/'>
-							<button className='bg-orange-500/80 hover:bg-blue-300/60 hover:scale-105 p-2 rounded-full hover:text-slate-700 text-slate-100 font-medium text-sm md:text-md transition-all duration-300'>
+							<button className='bg-orange-500/80 hover:bg-blue-600/60 hover:scale-105 p-2 rounded-full hover:text-slate-100 text-slate-100 font-medium text-sm md:text-md transition-all duration-300'>
 								<FaUser />
 							</button>
 						</Link>
