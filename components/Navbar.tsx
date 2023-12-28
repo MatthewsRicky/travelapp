@@ -96,24 +96,23 @@ const Navbar = () => {
 							</Link>
 						</li>
 					))}
-				</ul>
-
-				<ul className='flex sm:hidden items-center justify-center rounded full gap-6 flex-row'>
-					<li className='flex px-2 py-2 items-center justify-center shadow-lg rounded-full'>
-						<Link href='/'>
-							<FaFacebook />
-						</Link>
-					</li>
-					<li className='flex px-2 py-2 items-center justify-center shadow-lg rounded-full'>
-						<Link href='/'>
-							<FaInstagram />
-						</Link>
-					</li>
-					<li className='flex px-2 py-2 items-center justify-center shadow-lg rounded-full'>
-						<Link href='/'>
-							<FaTwitter />
-						</Link>
-					</li>
+					<ul className='flex sm:hidden items-center justify-center rounded full gap-6 flex-row'>
+						<li className='flex px-2 py-2 items-center justify-center shadow-lg rounded-full'>
+							<Link href='/'>
+								<FaFacebook />
+							</Link>
+						</li>
+						<li className='flex px-2 py-2 items-center justify-center shadow-lg rounded-full'>
+							<Link href='/'>
+								<FaInstagram />
+							</Link>
+						</li>
+						<li className='flex px-2 py-2 items-center justify-center shadow-lg rounded-full'>
+							<Link href='/'>
+								<FaTwitter />
+							</Link>
+						</li>
+					</ul>
 				</ul>
 			</motion.nav>
 		</section>
