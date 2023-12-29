@@ -37,7 +37,7 @@ const Navbar = () => {
 				initial={{ y: -100, opacity: 0 }}
 				animate={{ y: 0, opacity: 1 }}
 				transition={{ duration: 0.5 }}
-				className='fixed text-center sm:left-[2.5%] md:left-[10%] lg:left-[17.5%] flex flex-col md:flex-row justify-between sm:justify-around items-center max-container padding-container my-3 sm:rounded-full bg-slate-100/40 z-30 py-2 gap-4 w-full sm:w-[95%] md:w-[80%] lg:w-[70%] xl:w-[65%] backdrop-blur-sm'>
+				className='fixed text-center sm:left-[2.5%] md:left-[10%] lg:left-[17.5%] flex flex-col md:flex-row justify-between sm:justify-around items-center max-container padding-container my-3 sm:rounded-full bg-slate-100/40 z-30 py-2 gap-4 w-full sm:w-[95%] md:w-[80%] lg:w-[70%] xl:w-[65%] backdrop-blur-sm hover:backdrop-blur-md'>
 				<motion.div
 					initial={{ y: -100, opacity: 0 }}
 					animate={{ y: [0, 5, 0], opacity: 1 }}
