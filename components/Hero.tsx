@@ -27,7 +27,7 @@ const Hero = () => {
 						/>
 					</div>
 					<div className='flex flex-col gap-4 w-full justify-center mx-auto mt-10 items-center sm:w-[40%]'>
-						<h1 className=' backdrop-blur-xs text-slate-100 text-center uppercase font-bold text-lg p-4 rounded-md'>
+						<h1 className=' backdrop-blur-xs text-slate-100 bg-orange-600/80 text-center uppercase font-bold text-lg p-4 rounded-md'>
 							Diani Beach Podcast
 						</h1>
 						<p className='bold-24 backdrop-blur-md px-2 py-4 rounded-lg mt-2 sm:mt-6 text-center bg-blue-800/60 text-blue-200 shadow-lg xl:max-w-[720px]'>
