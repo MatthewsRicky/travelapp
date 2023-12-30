@@ -7,10 +7,12 @@ import React, { useState } from "react";
 import { FaAnchor } from "react-icons/fa";
 
 const SideBar = () => {
-	const [sideopen, setSideOpen] = useState(false);
+	const [sideopen, setSideOpen] = useState(true);
 
 	const handleSideBar = (setSideOpen: any) => {
 		if (sideopen) {
+			setSideOpen = false;
+		} else {
 			setSideOpen = true;
 		}
 	};
