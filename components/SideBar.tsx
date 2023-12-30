@@ -10,7 +10,7 @@ const SideBar = () => {
 	const [sideopen, setSideOpen] = useState(false);
 
 	const handleSideBar = (setSideOpen: any) => {
-		if (!sideopen) {
+		if (sideopen) {
 			setSideOpen = true;
 		}
 	};
@@ -19,7 +19,7 @@ const SideBar = () => {
 		<section className='relative'>
 			<button
 				className={`${
-					!sideopen
+					sideopen
 						? "fixed z-40 h-[20px] w-[20] top-[49%] left-8 md:left-12 bg-orange-500/80 hover:bg-blue-600/80 hover:scale-105 text-white p-6 justify-center flex items-center rounded-md"
 						: "hidden"
 				}`}
@@ -29,7 +29,7 @@ const SideBar = () => {
 
 			<nav
 				className={`${
-					sideopen
+					!sideopen
 						? "fixed text-center left-[2%] top-[27%] flex flex-col justify-between sm:justify-around items-center max-container padding-container my-3 rounded-md  z-30 py-2 gap-4 w-[18%] backdrop-blur-sm"
 						: "hidden"
 				}`}>
