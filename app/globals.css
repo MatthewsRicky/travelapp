@@ -34,6 +34,10 @@ video {
 	background-color: rgba(234, 187, 178, 0.283);
 }
 
+.activelink {
+	background-color: rgba(255, 68, 0, 0.87);
+}
+
 @layer utilities {
 	.btn_white {
 		@apply border-white bg-white px-8 py-3 text-green-50;
