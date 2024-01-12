@@ -179,8 +179,8 @@ export const BLOG_LINKS = [
 		key: "partiesindiani",
 	},
 	{
-		href: "/blog/arrivalchecklist",
-		key: "arrivalchecklist",
+		href: "/blog/redbull_kongo",
+		key: "redbull_kongo",
 	},
 	{
 		href: "/blog/arrivalchecklist",
