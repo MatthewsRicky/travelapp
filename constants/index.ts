@@ -163,12 +163,12 @@ export const BLOG_LINKS = [
 		key: "fadhilee-pallete",
 	},
 	{
-		href: "/blog/arrivalchecklist",
-		key: "arrivalchecklist",
+		href: "/blog/happiness_retreat",
+		key: "happiness_retreat",
 	},
 	{
-		href: "/blog/arrivalchecklist",
-		key: "arrivalchecklist",
+		href: "/blog/karaoke",
+		key: "karaoke",
 	},
 	{
 		href: "/blog/arrivalchecklist",
