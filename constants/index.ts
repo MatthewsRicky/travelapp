@@ -175,8 +175,8 @@ export const BLOG_LINKS = [
 		key: "massage",
 	},
 	{
-		href: "/blog/arrivalchecklist",
-		key: "arrivalchecklist",
+		href: "/blog/partiesindiani",
+		key: "partiesindiani",
 	},
 	{
 		href: "/blog/arrivalchecklist",
