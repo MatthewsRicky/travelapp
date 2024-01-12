@@ -151,16 +151,16 @@ export const BLOG_LINKS = [
 		key: "arrivalchecklist",
 	},
 	{
-		href: "/blog/arrivalchecklist",
-		key: "arrivalchecklist",
+		href: "/blog/dianinightlife",
+		key: "dianinightlife",
 	},
 	{
-		href: "/blog/arrivalchecklist",
-		key: "arrivalchecklist",
+		href: "/blog/dineout",
+		key: "dineout",
 	},
 	{
-		href: "/blog/arrivalchecklist",
-		key: "arrivalchecklist",
+		href: "/blog/",
+		key: "",
 	},
 	{
 		href: "/blog/arrivalchecklist",
