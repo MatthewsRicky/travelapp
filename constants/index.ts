@@ -145,7 +145,52 @@ export const BLOG_SECTION = [
 
 // BLOG SECTION LINKS
 
-export const BLOG_LINKS = [];
+export const BLOG_LINKS = [
+	{
+		href: "/blog/arrivalchecklist",
+		key: "arrivalchecklist",
+	},
+	{
+		href: "/blog/arrivalchecklist",
+		key: "arrivalchecklist",
+	},
+	{
+		href: "/blog/arrivalchecklist",
+		key: "arrivalchecklist",
+	},
+	{
+		href: "/blog/arrivalchecklist",
+		key: "arrivalchecklist",
+	},
+	{
+		href: "/blog/arrivalchecklist",
+		key: "arrivalchecklist",
+	},
+	{
+		href: "/blog/arrivalchecklist",
+		key: "arrivalchecklist",
+	},
+	{
+		href: "/blog/arrivalchecklist",
+		key: "arrivalchecklist",
+	},
+	{
+		href: "/blog/arrivalchecklist",
+		key: "arrivalchecklist",
+	},
+	{
+		href: "/blog/arrivalchecklist",
+		key: "arrivalchecklist",
+	},
+	{
+		href: "/blog/arrivalchecklist",
+		key: "arrivalchecklist",
+	},
+	{
+		href: "/blog/arrivalchecklist",
+		key: "arrivalchecklist",
+	},
+];
 
 // FOOTER SECTION
 export const FOOTER_LINKS = [
