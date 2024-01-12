@@ -159,8 +159,8 @@ export const BLOG_LINKS = [
 		key: "dineout",
 	},
 	{
-		href: "/blog/",
-		key: "",
+		href: "/blog/fadhilee-pallete",
+		key: "fadhilee-pallete",
 	},
 	{
 		href: "/blog/arrivalchecklist",
