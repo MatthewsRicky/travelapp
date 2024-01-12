@@ -183,8 +183,8 @@ export const BLOG_LINKS = [
 		key: "redbull_kongo",
 	},
 	{
-		href: "/blog/arrivalchecklist",
-		key: "arrivalchecklist",
+		href: "/blog/sarova",
+		key: "sarova",
 	},
 	{
 		href: "/blog/arrivalchecklist",
