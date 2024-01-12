@@ -187,8 +187,8 @@ export const BLOG_LINKS = [
 		key: "sarova",
 	},
 	{
-		href: "/blog/arrivalchecklist",
-		key: "arrivalchecklist",
+		href: "/blog/tribearth_soul_sessions",
+		key: "tribearth_soul_sessions",
 	},
 ];
 
