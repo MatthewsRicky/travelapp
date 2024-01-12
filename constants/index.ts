@@ -143,6 +143,10 @@ export const BLOG_SECTION = [
 	},
 ];
 
+// BLOG SECTION LINKS
+
+export const BLOG_LINKS = [];
+
 // FOOTER SECTION
 export const FOOTER_LINKS = [
 	{
