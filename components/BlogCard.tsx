@@ -47,7 +47,9 @@ const BlogCard = ({ src, alt, title, description }: blogItems) => {
 						</div>
 					</article>
 				))}
-			</>//banana
+			</>
+			//banana
+			//another banana
 		</section>
 	);
 };
