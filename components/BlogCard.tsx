@@ -15,9 +15,9 @@ const BlogCard = ({ src, alt, title, description }: blogItems) => {
 	return (
 		<section>
 			<header className='flex justify-center w-full'>
-				<span>
-					<p>BLOGS</p>
+				<span className='flex'>
 					<FaBlog />
+					<p className='text-xl uppercase'>Articles</p>
 				</span>
 			</header>
 			<div className='grid my-10 w-[90%] md:grid-cols-2 lg:grid-cols-3 gap-8 max-container items-center blogs-bg p-4 border-none shadow-md rounded-lg'>
