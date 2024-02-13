@@ -14,7 +14,7 @@ type blogItems = {
 const BlogCard = ({ src, alt, title, description }: blogItems) => {
 	return (
 		<section>
-			<header>
+			<header className='flex justify-center w-full'>
 				<span>
 					<p>BLOGS</p>
 					<FaBlog />
