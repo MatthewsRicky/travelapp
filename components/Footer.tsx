@@ -6,7 +6,7 @@ import React from "react";
 const Footer = () => {
 	return (
 		<footer className='flexCenter mb-24'>
-			<section className='flex flex-row justify-center items-center mx-auto'>
+			<section className='flex flex-col justify-center items-center mx-auto'>
 				<h1>Diani Travel guide</h1>
 				<div>
 					<div>About Us</div>
