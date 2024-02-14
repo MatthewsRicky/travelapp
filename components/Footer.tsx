@@ -8,6 +8,11 @@ const Footer = () => {
 		<footer className='flexCenter mb-24'>
 			<section className='flex flex-row justify-center items-center mx-auto'>
 				<h1>Diani Travel guide</h1>
+				<div>
+					<div>About Us</div>
+					<div>Find Us</div>
+					<div>Follow Us</div>
+				</div>
 			</section>
 		</footer>
 	);
