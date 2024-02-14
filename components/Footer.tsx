@@ -7,7 +7,7 @@ const Footer = () => {
 	return (
 		<footer className='flexCenter mb-24'>
 			<section className='flex flex-row justify-center items-center mx-auto'>
-				<p>FOOTER</p>
+				<h1>Diani Travel guide</h1>
 			</section>
 		</footer>
 	);
