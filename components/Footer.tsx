@@ -8,7 +8,7 @@ const Footer = () => {
 		<footer className='flexCenter mb-24'>
 			<section className='flex flex-col justify-center items-center mx-auto'>
 				<h1>Diani Travel guide</h1>
-				<div className='flex gap-8 justify-around'>
+				<div className='flex gap-8 justify-between w-full'>
 					<div>About Us</div>
 					<div>Find Us</div>
 					<div>Follow Us</div>
