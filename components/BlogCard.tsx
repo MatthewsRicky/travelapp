@@ -21,7 +21,7 @@ const BlogCard = ({ src, alt, title, description }: blogItems) => {
 				</span>
 			</header>
 			<div className='grid my-10 w-[90%] md:grid-cols-2 lg:grid-cols-3 gap-8 max-container items-center blogs-bg p-4 border-none shadow-md rounded-lg'>
-				<>
+				<div>
 					{BLOG_SECTION.map((blog) => (
 						<article
 							key={blog.title}
@@ -38,19 +38,19 @@ const BlogCard = ({ src, alt, title, description }: blogItems) => {
 									<h1 className='bold-32 px-2 py-3 shadow-sm rounded-md shadow-orange-300  flex text-center text-md my-3 items'>
 										{blog.title}
 									</h1>
-									<p className='mb-4 p-4 text-center'>
+									<article className='mb-4 p-4 text-center'>
 										{blog.description}
 										<Link
 											href='/'
 											className='text-orange-500 hover:underline'>
 											<p>...Continue Reading</p>
 										</Link>
-									</p>
+									</article>
 								</div>
 							</div>
 						</article>
 					))}
-				</>
+				</div>
 			</div>
 		</section>
 	);
