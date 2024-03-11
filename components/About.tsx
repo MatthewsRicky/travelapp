@@ -23,7 +23,7 @@ const About = () => {
 				/>
 				<article className='flex flex-col justify-center text-center items-center flex-wrap gap-8'>
 					<h1 className='font-bold text-xl text-blue-500'>Meet The Author.</h1>
-					<p>
+					<div>
 						Embukane Vincent Libosso Bengoh started his career at the beginning
 						of 2010 as a blogger, after a one month training at{" "}
 						<Link
@@ -46,8 +46,8 @@ const About = () => {
 							className='text-blue-500 hover:text-orange-500 hover:underline transition-300'>
 							What’s Good Studios.
 						</Link>
-					</p>
-					<p>
+					</div>
+					<div>
 						In 2017, he graduated with a Diploma in Communication from{" "}
 						<Link
 							href='/'
@@ -67,8 +67,8 @@ const About = () => {
 						coverage and celebrity interviews). The key to his success has been
 						an unsinkable passion for radio, TV, content marketing and creation,
 						music and people.
-					</p>
-					<p>
+					</div>
+					<div>
 						In 2020, alongside co-presenters Rafiiki and Blak Ice, Libosso aka
 						Vinny Puppa Rankin received the prestigious{" "}
 						<Link
@@ -78,7 +78,7 @@ const About = () => {
 							their straight reggae and dancehall show, #LazeReggae Invasion
 							Podcast.
 						</Link>
-					</p>
+					</div>
 					<button className='text-center bg-orange-500 rounded-md px-4 py-2 text-white m-4'>
 						Contact Me
 					</button>
@@ -113,7 +113,7 @@ const About = () => {
 						<h2 className='font-bold text-xl text-blue-500'>
 							Partner With Us.
 						</h2>
-						<p>
+						<div>
 							Need to cause a spark with your next campaign? Our audience of
 							urban adventurers loves to visit new places and try new things –
 							and they bring their friends with them! Email us today with
@@ -135,7 +135,7 @@ const About = () => {
 							</Link>
 							. *Diani Beach Podcast Blog lifestyle experience and merchandises
 							coming soon.
-						</p>
+						</div>
 					</div>
 				</article>
 				<div>
