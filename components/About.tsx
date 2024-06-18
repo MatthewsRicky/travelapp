@@ -19,7 +19,7 @@ const About = () => {
 					alt='Libosso'
 					width={1000}
 					height={200}
-					className='w-[40%] h-[45%] flex justify-center items-center mx-auto'
+					className='w-[40%] rounded-md h-[45%] flex justify-center items-center mx-auto'
 				/>
 				<article className='flex flex-col justify-center text-center items-center flex-wrap gap-8'>
 					<h1 className='font-bold text-xl text-blue-500'>Meet The Author.</h1>
