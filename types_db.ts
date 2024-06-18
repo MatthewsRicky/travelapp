@@ -6,7 +6,7 @@ export type Json =
 	| { [key: string]: Json }
 	| Json[];
 
-export type Database {
+export type Database = {
 	public: {
 		Tables: {
 			users: {
