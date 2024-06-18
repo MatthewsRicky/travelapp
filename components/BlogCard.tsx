@@ -25,7 +25,7 @@ const BlogCard = ({ src, alt, title, description }: blogItems) => {
 					{BLOG_SECTION.map((blog) => (
 						<article
 							key={blog.title}
-							className='my-6 flex flex-col items-center justify-center'>
+							className='my-6b items-center justify-center'>
 							<div>
 								<Image
 									src={blog.src}
