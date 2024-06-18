@@ -4,15 +4,15 @@ import Image from "next/image";
 import Button from "./Button";
 const Hero = () => {
 	return (
-		<section className='relative z-100 max-container video-background flex flex-col justify-center items-center gap-6 py-10 mt-24'>
-			<div className='relative flex flex-col mt-48'>
+		<section className='relative z-100 max-container video-background space-y-6 flex flex-col justify-center items-center gap-6 mt-24'>
+			<div className='relative flex flex-col mt-32'>
 				<div className='justify-around w-[60%] items-center relative mx-auto flex z-20 sm:w-[85%] flex-col sm:flex-col gap-4 px-3 py-3 rounded-lg shadow-2xl backdrop-blur-sm'>
 					<div className='hidden sm:flex z-20 mt-24'>
 						<Image
 							src='/libosso_profile.webp'
 							alt='Libosso'
-							width={150}
-							height={150}
+							width={250}
+							height={250}
 							className='rounded-full drop-shadow-lg shadow-blue-950'
 						/>
 					</div>
