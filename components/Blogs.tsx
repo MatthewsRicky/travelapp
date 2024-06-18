@@ -4,7 +4,8 @@ import BlogCard from "./BlogCard";
 const Blogs = () => {
 	return (
 		<section>
-			<BlogCard />
+			<BlogCard src="src" alt="alt" title="title" description="description" />
+
 		</section>
 	);
 };
