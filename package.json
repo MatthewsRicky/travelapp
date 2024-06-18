@@ -19,6 +19,7 @@
     "react-dom": "^18",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^4.12.0",
+    "react-vertical-timeline-component": "^3.6.0",
     "supabase": "^1.115.4"
   },
   "devDependencies": {
