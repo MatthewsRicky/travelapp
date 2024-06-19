@@ -13,14 +13,14 @@ type blogItems = {
 
 const BlogCard = ({ src, alt, title, description }: blogItems) => {
 	return (
-		<section className="">
+		<section className=" max">
 			<header className='flexCenter w-full my-8'>
 				<span className='flex items-center justify-center gap-3'>
 					<FaBlog />
 					<p className='text-xl font-bold uppercase'>Articles</p>
 				</span>
 			</header>
-			<div className=''>
+			<div className='max-w-[1440px]'>
 				<div className="flexCenter flex-col items-center w-full">
 					{BLOG_SECTION.map((blog) => (
 						<article
