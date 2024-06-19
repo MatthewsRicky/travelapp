@@ -13,7 +13,7 @@ type blogItems = {
 
 const BlogCard = ({ src, alt, title, description }: blogItems) => {
 	return (
-		<section>
+		<section className="flexCenter">
 			<header className='flex justify-center w-full my-8 items-center'>
 				<span className='flex items-center justify-center gap-3'>
 					<FaBlog />
