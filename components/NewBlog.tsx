@@ -1,5 +1,5 @@
 "use client"
-import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component"
+
 import { BLOG_SECTION } from "@/constants"
 import Image from "next/image"
 import {} from "react-icons"
