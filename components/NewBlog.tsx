@@ -2,6 +2,7 @@
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component"
 import { BLOG_SECTION } from "@/constants"
 import Image from "next/image"
+import {} from "react-icons"
 
 type blogItems = {
   src: string;
@@ -12,20 +13,24 @@ type blogItems = {
  
 const NewBlog = ({src, alt, title, description}: blogItems) => {
   return(
-    <VerticalTimeline>
-      <VerticalTimelineElement>
+
+      
         <div className="">
         {BLOG_SECTION.map((blog)=>(
           <div key={blog.title}>
-            <Image src={blog.src} alt="" />
+            
+            <Image src={blog.src} alt={blog.alt} />
             <h1>{blog.title}</h1>
+            <p>{blog.description}</p>
+
+            
           </div>
 
         
         ))}
         </div>
-      </VerticalTimelineElement>
-    </VerticalTimeline>
+
+
   )
 }
 
