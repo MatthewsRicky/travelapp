@@ -13,20 +13,20 @@ type blogItems = {
 
 const BlogCard = ({ src, alt, title, description }: blogItems) => {
 	return (
-		<section className="flexCenter">
-			<header className='flex justify-center w-full my-8 items-center'>
+		<section className="">
+			<header className='flexCenter w-full my-8'>
 				<span className='flex items-center justify-center gap-3'>
 					<FaBlog />
 					<p className='text-xl font-bold uppercase'>Articles</p>
 				</span>
 			</header>
-			<div className='grid my-10 w-[90%] md:grid-cols-2 lg:grid-cols-3 gap-8 max-container items-center blogs-bg p-4 border-none shadow-md rounded-lg'>
-				<div className="flex items-center justify-center flex-col mx-auto w-full">
+			<div className=''>
+				<div className="flexCenter flex-col items-center w-full">
 					{BLOG_SECTION.map((blog) => (
 						<article
 							key={blog.title}
-							className='my-6 mx-auto items-center justify-center'>
-							<div>
+							className='my-6 flexCenter'>
+							<div className="flexCenter flex-col medium-14">
 								<Image
 									src={blog.src}
 									alt={blog.alt}
