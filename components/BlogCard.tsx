@@ -21,11 +21,11 @@ const BlogCard = ({ src, alt, title, description }: blogItems) => {
 				</span>
 			</header>
 			<div className='grid my-10 w-[90%] md:grid-cols-2 lg:grid-cols-3 gap-8 max-container items-center blogs-bg p-4 border-none shadow-md rounded-lg'>
-				<div>
+				<div className="flex items-center justify-center flex-col mx-auto w-full">
 					{BLOG_SECTION.map((blog) => (
 						<article
 							key={blog.title}
-							className='my-6b items-center justify-center'>
+							className='my-6 mx-auto items-center justify-center'>
 							<div>
 								<Image
 									src={blog.src}
