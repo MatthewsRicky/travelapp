@@ -3,7 +3,7 @@ import BlogCard from "./BlogCard";
 
 const Blogs = () => {
 	return (
-		<section>
+		<section className="flex justify-center items-center mx-auto">
 			<BlogCard src="src" alt="alt" title="title" description="description" />
 
 		</section>
