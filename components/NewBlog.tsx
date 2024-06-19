@@ -19,7 +19,7 @@ const NewBlog = ({src, alt, title, description}: blogItems) => {
         {BLOG_SECTION.map((blog)=>(
           <div key={blog.title}>
             
-            <Image src={blog.src} alt={blog.alt} />
+            <Image src={blog.src} alt={blog.alt} height={500} width={500} />
             <h1>{blog.title}</h1>
             <p>{blog.description}</p>
 
