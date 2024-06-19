@@ -17,7 +17,7 @@ const BlogCard = ({ src, alt, title, description }: blogItems) => {
 			<header className='flex justify-center w-full'>
 				<span className='flex items-center justify-center gap-3'>
 					<FaBlog />
-					<p className='text-xl uppercase'>Articles</p>
+					<p className='text-xl font-bold uppercase'>Articles</p>
 				</span>
 			</header>
 			<div className='grid my-10 w-[90%] md:grid-cols-2 lg:grid-cols-3 gap-8 max-container items-center blogs-bg p-4 border-none shadow-md rounded-lg'>
@@ -25,7 +25,7 @@ const BlogCard = ({ src, alt, title, description }: blogItems) => {
 					{BLOG_SECTION.map((blog) => (
 						<article
 							key={blog.title}
-							className='my-6 flex flex-col items-center justify-center'>
+							className='my-6b items-center justify-center'>
 							<div>
 								<Image
 									src={blog.src}
