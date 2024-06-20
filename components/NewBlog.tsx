@@ -15,7 +15,7 @@ const NewBlog = ({src, alt, title, description}: blogItems) => {
   return(
 
       
-        <div className="">
+        <div className="flex flex-col items-center justify-center mx-auto w-full">
         {BLOG_SECTION.map((blog)=>(
           <div key={blog.title}>
             
