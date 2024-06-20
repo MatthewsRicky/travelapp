@@ -19,7 +19,7 @@ const NewBlog = ({src, alt, title, description}: blogItems) => {
             <Image src={blog.src} alt={blog.alt} height={500} width={500} className="rounded-sm shadow-lg my-4"/>
             <div className="flexStart gap-4 items-center">
               <div>
-                <AiFillAccountBook className="w-6 h-6 text-orange-400" />
+                <AiFillAccountBook className="w-12 h-12 text-orange-400 shadow-lg rounded-sm p-2 border-1-solid" />
               </div>
               <h1 className="bold-20 py-3 my-4">{blog.title}</h1>
             </div>
