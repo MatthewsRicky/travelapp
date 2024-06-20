@@ -20,7 +20,7 @@ const NewBlog = ({src, alt, title, description}: blogItems) => {
           <div key={blog.title} 
             className="flexCenter flex-col padding-container !px-20">
             
-            <Image src={blog.src} alt={blog.alt} height={500} width={500} />
+            <Image src={blog.src} alt={blog.alt} height={500} width={500} className="rounded-sm shadow-lg my-4"/>
             <h1>{blog.title}</h1>
             <p>{blog.description}</p>
 
