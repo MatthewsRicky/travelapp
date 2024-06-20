@@ -18,7 +18,7 @@ const NewBlog = ({src, alt, title, description}: blogItems) => {
         <div className="flex flex-col items-center justify-center mx-auto w-full">
         {BLOG_SECTION.map((blog)=>(
           <div key={blog.title} 
-            className="flexCenter flex-col">
+            className="flexCenter flex-col padding-container !px-20">
             
             <Image src={blog.src} alt={blog.alt} height={500} width={500} />
             <h1>{blog.title}</h1>
