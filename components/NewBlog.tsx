@@ -14,6 +14,7 @@ type blogItems = {
 const NewBlog = ({src, alt, title, description}: blogItems) => {
   return(
         <div className="flex flex-col items-center justify-center mx-auto w-full my-10">
+          <h1 className="uppercase bold-20 border-b-1 border-solid">blog</h1>
         {BLOG_SECTION.map((blog)=>(
           <div key={blog.title} className="flexCenter flex-col padding-container !px-20 mb-6">
             <div className="flexStart gap-4 items-center">
