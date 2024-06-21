@@ -16,10 +16,10 @@ const NewBlog = ({src, alt, title, description}: blogItems) => {
         <div className="flex flex-col items-center justify-center mx-auto w-full my-20">
           <h1 className="uppercase bold-20 border-b-1 border-solid my-4">blog</h1>
         {BLOG_SECTION.map((blog)=>(
-          <div key={blog.title} className="flexCenter flex-col padding-container !px-20 mb-6">
+          <div key={blog.title} className="flexCenter flex-col md:padding-container !md:px-20 mb-6">
             <div className="flexStart gap-4 items-center">
               <div>
-                <AiFillAccountBook className="w-12 h-12 text-orange-400 shadow-sm rounded-sm p-2 border-1-solid shadow-orange-400" />
+                <AiFillAccountBook className="w-8 h-8 text-orange-400 shadow-sm rounded-sm p-2 border-1-solid shadow-orange-400" />
               </div>
               <h2 className="bold-20 py-3 my-4">{blog.title}</h2>
             </div>
