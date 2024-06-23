@@ -1,4 +1,19 @@
 // NAVIGATION
+import { AiFillCarryOut, AiFillCreditCard, AiTwotoneShopping} from "react-icons/ai"
+import { BiAnchor, BiBeer, BiBowlRice, BiBed} from "react-icons/bi"
+import { BsBicycle} from "react-icons/bs"
+
+export const ICONS = [
+	{iconName: "icons"},
+	{icon: "<AiFillCarryOut />"},
+	{icon: "<AiFillCreditCard />"},
+	{icon: "<AiTwoTonShopping />"},
+	{icon: "<BiAnchor />"},
+	{icon: "<BiBeer />"},
+	{icon: "<BiBowlRice />"},
+	{icon: "<BiBed />"},
+	{icon: "<BsBicycle />"},
+]
 
 export const NAV_LINKS = [
 	{ href: "/", key: "home", label: "Home" },
@@ -229,3 +244,4 @@ export const SOCIALS = {
 		"/wordpress.svg",
 	],
 };
+
