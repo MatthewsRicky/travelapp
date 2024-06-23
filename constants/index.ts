@@ -5,14 +5,14 @@ import { BsBicycle} from "react-icons/bs"
 
 export const ICONS = [
 	{iconName: "icons"},
-	{icon: "<AiFillCarryOut />"},
-	{icon: "<AiFillCreditCard />"},
-	{icon: "<AiTwoTonShopping />"},
-	{icon: "<BiAnchor />"},
-	{icon: "<BiBeer />"},
-	{icon: "<BiBowlRice />"},
-	{icon: "<BiBed />"},
-	{icon: "<BsBicycle />"},
+	{icon: "<AiFillCarryOut />", title: "food"},
+	{icon: "<AiFillCreditCard />", title: "payment"},
+	{icon: "<AiTwoTonShopping />", title: "shopping"},
+	{icon: "<BiAnchor />", title: "sea"},
+	{icon: "<BiBeer />", title: "nightout"},
+	{icon: "<BiBowlRice />", title: "restaurant"},
+	{icon: "<BiBed />", title: "hotel"},
+	{icon: "<BsBicycle />", title: "cycling"},
 ]
 
 export const NAV_LINKS = [
