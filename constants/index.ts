@@ -1,7 +1,7 @@
 // NAVIGATION
-import { AiFillCarryOut, AiFillCreditCard, AiTwotoneShopping} from "react-icons/ai"
+import { AiFillCarryOut, AiFillCreditCard, AiTwotoneShopping, AiFillAccountBook } from "react-icons/ai"
 import { BiAnchor, BiBeer, BiBowlRice, BiBed} from "react-icons/bi"
-import { BsBicycle} from "react-icons/bs"
+import { BsBicycle, BsBackpack2Fill, BsEmojiSmileFill, BsMusicNote, BsMusicPlayerFill} from "react-icons/bs"
 
 export const ICONS = [
 	{iconName: "icons"},
@@ -83,6 +83,7 @@ export const BLOG_SECTION = [
 			"February is technically the first month, so congratulations: you’ve pretty much survived another nJaanuary (*ask a Kenyan the meaning of this) in Diani. To make it go by quicker, here are some new tasty gourmet spots in town to check out.",
 		src: "/sarova-stanley-thai-chi-restaurant-9.webp",
 		alt: "Sarova Stanley Thai Chi Restaurant",
+		icon: "<BiBowlRice />",
 	},
 	{
 		title: "Your Pre‑Arrival Checklist for Diani Beach Kenya",
@@ -90,6 +91,7 @@ export const BLOG_SECTION = [
 			"You could be heading for a staycation, honeymoon, enjoying a quick stopover, family holiday or backpacking solo or with friends ‑ we all want it easy when we head to our destination, so here is your pre‑arrival checklist for Diani.",
 		src: "/happiness-retreat-with-nadine-diani-beach-june-2021-image-2.webp",
 		alt: "Palm Trees",
+		icon: "<AiFillAccountBook />",
 	},
 	{
 		title: "The Coolest Parties in Diani (Jan 26 - Jan 29) ",
@@ -97,6 +99,7 @@ export const BLOG_SECTION = [
 			"This weekend, we’ve got Mombasa’s Shanga Tatu passing through, DJ Kuzi playing at Funky Monkey; bonfire party at Soul Breeze and more. Here’s your handy guide of the coolest parties happening in Diani this week.",
 		src: "/the-club-diani-revelers.-photo-credited-to-the-club-diani-facebook-page.webp",
 		alt: "Diani Nights",
+		icon: "<BiBeer />",
 	},
 	{
 		title: "I Went To My First Karaoke Night | Diani Beach Nightlife",
@@ -104,6 +107,7 @@ export const BLOG_SECTION = [
 			"Local pub karaoke nights are surging in popularity in Diani beach and Stilts Backpackers might have the perfect formula for a Thursday night out.",
 		src: "/the-stilts-backpackers-diani-beach-bar-image-courtesy-of-stilts-backpackers-facebook-page.webp",
 		alt: "Backpackers",
+		icon: "<BsBackpack2Fill />"
 	},
 	{
 		title: "I Got My First Massage Experience In Diani Beach - I Deserved It",
@@ -111,6 +115,7 @@ export const BLOG_SECTION = [
 			"Is there anything better than a massage in Diani beach that hits the spot? Florence Ky’s Spa is close to my place.",
 		src: "/wellness.webp",
 		alt: "Wellness",
+		icon: "<BsEmojiSmileFill />",
 	},
 	{
 		title: "Nightlife: The Club Diani Fiinally Opens",
@@ -118,6 +123,7 @@ export const BLOG_SECTION = [
 			"Ihis week, Diani beach welcomes a new superclub – The Club Diani to its nightlife glitter. There will always be drinking and dancing in Diani. Wine and More Diani just completed their expansion. Already there is word of a new bar; Funky Monkey is about to open.",
 		src: "/the-club-diani-image-courtesy-of-their-facebook-page-40theclubdiani-2.webp",
 		alt: "The Club Diani",
+		icon: "<BiBeer />",
 	},
 	{
 		title:
@@ -126,6 +132,7 @@ export const BLOG_SECTION = [
 			"A piece of Thailand in Nairobi, Thai Chi has previously been awarded as the most authentic Thai restaurant in East Africa",
 		src: "/sarova-stanley-thai-chi-restaurant-9.webp",
 		alt: "Thai Chi Restaurant",
+		icon: "<biRiceBowl />",
 	},
 	{
 		title: "Fadhilee Itulya at Pallete Cafe Diani - Event Review",
@@ -133,6 +140,7 @@ export const BLOG_SECTION = [
 			"The music creates a great atmosphere. Food and music are meant to go together.",
 		src: "/pallet-cafe-diani-1.webp",
 		alt: "Fadhilee at Pallet Cafe",
+		icon: "<BsMusicPlayerFill />",
 	},
 	{
 		title:
@@ -140,7 +148,8 @@ export const BLOG_SECTION = [
 		description:
 			"Start your new year away from the hustle and bustle of everyday life and give yourself some quality time away to truly relax and revitalise, detox, destress & laugh.",
 		src: "/happiness-retreat-with-nadine-5.webp",
-		alt: "Fadhilee at Pallet Cafe",
+		alt: "Happiness Reatreat",
+		icon: "<BsEmojiSmileFill />",
 	},
 	{
 		title: "Red Bull Quicksand 2021 to Take Place at Kongo River Beach, Diani",
@@ -148,6 +157,7 @@ export const BLOG_SECTION = [
 			"Red Bull Quicksand could be the toughest 1 mile you ever run.",
 		src: "/red-bull-quicksand-2021-beach-run-diani-kenya (1).webp",
 		alt: "Red Bull Quicksand 2021",
+		icon: "<BsBycicle />",
 	},
 	{
 		title: "TribEarth Soul Sessions | Fridays from 4pm",
@@ -155,6 +165,7 @@ export const BLOG_SECTION = [
 			"TribEarth is shifting gears to launch “The TribEarth Soul Sessions,” a live music series built on the trove of intimacy, innovation and our overall goal to support homegrown music talents.",
 		src: "/tribearth-soul-sessions-every-friday-poster (1).webp",
 		alt: "TribeEart Soul Sessions 2021",
+		icon: "<BsMusicNote />"
 	},
 ];
 
