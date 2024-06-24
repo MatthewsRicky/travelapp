@@ -3,17 +3,7 @@ import { AiFillCarryOut, AiFillCreditCard, AiTwotoneShopping, AiFillAccountBook 
 import { BiAnchor, BiBeer, BiBowlRice, BiBed} from "react-icons/bi"
 import { BsBicycle, BsBackpack2Fill, BsEmojiSmileFill, BsMusicNote, BsMusicPlayerFill} from "react-icons/bs"
 
-export const ICONS = [
-	{iconName: "icons"},
-	{icon: "<AiFillCarryOut />", title: "food"},
-	{icon: "<AiFillCreditCard />", title: "payment"},
-	{icon: "<AiTwoTonShopping />", title: "shopping"},
-	{icon: "<BiAnchor />", title: "sea"},
-	{icon: "<BiBeer />", title: "nightout"},
-	{icon: "<BiBowlRice />", title: "restaurant"},
-	{icon: "<BiBed />", title: "hotel"},
-	{icon: "<BsBicycle />", title: "cycling"},
-]
+
 
 export const NAV_LINKS = [
 	{ href: "/", key: "home", label: "Home" },
