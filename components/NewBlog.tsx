@@ -9,7 +9,7 @@ type blogItems = {
   alt: string;
   title: string;
   description: string;
-  icon: object;
+
 }
 
 
