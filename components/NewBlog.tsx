@@ -18,8 +18,8 @@ const NewBlog = ({src, alt, title, description}: blogItems) => {
         {BLOG_SECTION.map((blog)=>(
           <div key={blog.title} className="flexCenter flex-col md:padding-container mb-6">
             <div className="flexStart gap-4 items-center">
-              <div>
-                <blog.icon className="w-8 h-8 text-orange-400 dark:text-orange-100 dark:shadow-orange-100/70 shadow-sm rounded-sm p-2 border-1-solid shadow-orange-400/70" />
+              <div className="w-8 h-8 text-orange-400 dark:text-orange-100 dark:shadow-orange-100/70 shadow-sm rounded-sm p-2 border-1-solid shadow-orange-400/70">
+                <blog.icon />
               </div>
               <h2 className="bold-20 py-3 my-4">{blog.title}</h2>
             </div>
