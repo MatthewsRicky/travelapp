@@ -17,7 +17,7 @@ type blogItems = {
  
 const NewBlog = ({src, alt, title, description}: blogItems) => {
   return(
-        <div className="flex flex-col items-center justify-center mx-auto w-full my-20 dark:bg-gradient-to-b from-neutral-800 to-neutral-950 dark:text-neutral-100">
+        <div className="flex flex-col items-center justify-center mx-auto w-full my-20 dark:bg-gradient-to-b from-neutral-800 to-neutral-950 dark:text-neutral-100 tracking-wide">
           <h1 className="uppercase bold-20 border-b-1 border-solid !md:px-20 my-4">blog</h1>
         {BLOG_SECTION.map((blog)=>(
           <div key={blog.title} className="flexCenter flex-col md:padding-container mb-6">
@@ -30,7 +30,7 @@ const NewBlog = ({src, alt, title, description}: blogItems) => {
             
             <Image src={blog.src} alt={blog.alt} height={500} width={500} className="rounded-sm shadow-lg my-4"/>
             
-            <p>{blog.description}</p>
+            <p className="tracking-wide px-12 text-md font-normal">{blog.description}</p>
           </div>
         ))}
         </div>
