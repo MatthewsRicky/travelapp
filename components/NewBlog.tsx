@@ -3,6 +3,7 @@
 import { BLOG_SECTION } from "@/constants"
 import Image from "next/image"
 import { AiFillAccountBook } from "react-icons/ai"
+import { BsBookmarkFill } from "react-icons/bs"
 
 type blogItems = {
   src: string;
@@ -20,8 +21,10 @@ const NewBlog = ({src, alt, title, description}: blogItems) => {
           <h1 className="uppercase bold-20 border-b-1 border-solid !md:px-20 my-4">blog</h1>
         {BLOG_SECTION.map((blog)=>(
           <div key={blog.title} className="flexCenter flex-col md:padding-container mb-6">
-            <div className="flexStart gap-4 items-center">
-
+            <div className="flexStart gap-x-4 items-center">
+              <span className="flex p-4 items-center">
+                <BsBookmarkFill />
+              </span>
               <h2 className="bold-20 py-3 my-4">{blog.title}</h2>
             </div>
             
