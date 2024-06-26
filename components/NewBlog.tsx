@@ -17,13 +17,13 @@ type blogItems = {
  
 const NewBlog = ({src, alt, title, description}: blogItems) => {
   return(
-        <div className="flex flex-col items-center justify-center mx-auto w-full my-20 bg-gradient-to-b from-neutral-50 to-neutral-200 dark:bg-gradient-to-b from-neutral-900 to-neutral-950 dark:text-neutral-100">
+        <div className="flex flex-col items-center justify-center mx-auto w-full my-20 dark:bg-gradient-to-b from-neutral-800 to-neutral-950 dark:text-neutral-100">
           <h1 className="uppercase bold-20 border-b-1 border-solid !md:px-20 my-4">blog</h1>
         {BLOG_SECTION.map((blog)=>(
           <div key={blog.title} className="flexCenter flex-col md:padding-container mb-6">
             <div className="flexStart gap-x-4 items-center">
               <span className="flex p-4 items-center">
-                <BsBookmarkFill />
+                <BsBookmarkFill className="w-6 h-5 drop-shadow-lg drop-shadow-sky-800" />
               </span>
               <h2 className="bold-20 py-3 my-4">{blog.title}</h2>
             </div>
