@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
 	content: [
 		"./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -47,6 +48,7 @@ module.exports = {
 			borderRadius: {
 				"5xl": "40px",
 			},
+			
 		},
 	},
 	plugins: [],
