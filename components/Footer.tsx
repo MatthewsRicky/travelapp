@@ -5,8 +5,8 @@ import React from "react";
 
 const Footer = () => {
 	return (
-		<footer className='flexCenter mb-0 bg-blue-950 mb-24'>
-			<section className='flex flex-col justify-center items-center mx-auto'>
+		<footer className='flexCenter gap-y-6 mb-0 bg-blue-950 mb-24'>
+			<section className='flex flex-col py-10 justify-center items-center mx-auto'>
 				<h1>Diani Travel guide</h1>
 				<div className='flex gap-8 justify-between w-full'>
 					<div>About Us</div>
