@@ -10,15 +10,15 @@ const Footer = () => {
 			<section className='flex flex-col py-10 justify-center items-center mx-auto'>
 				<h1>Diani Travel guide</h1>
 				<div className='flex flex-row gap-8 justify-between w-full'>
-					<div>
+					<div className="w-[30%]">
 						<h1>About Us</h1>
 						<p>Diani Beach Podcast is the ultra-shareable, uber-cool online guide to things to do in Diani Beach. Karibu Diani.</p>
 					</div>
-					<div>
+					<div className="w-[30%]">
 						<h1>Find Us</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eligendi quibusdam magni veniam iste voluptas.</p>
 					</div>
-					<div>
+					<div className="w-[30%]">
 						<h1>follow us</h1>
 						<ul className="flex">
 							<li><AiFillFacebook /></li>
