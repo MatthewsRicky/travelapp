@@ -10,7 +10,7 @@ const Footer = () => {
 			<section className='flex flex-col py-10 justify-center items-center mx-auto'>
 				<h1>Diani Travel guide</h1>
 				<div className='flex flex-row items-center mx-auto w-full'>
-					<div className="flex flex-col justify-center mx-auto item-center w-[30%]">
+					<div className="flex flex-col justify-center mx-auto items-center p-4 w-[30%]">
 						<h1>About Us</h1>
 						<p>Diani Beach Podcast is the ultra-shareable, uber-cool online guide to things to do in Diani Beach. Karibu Diani.</p>
 					</div>
@@ -20,7 +20,7 @@ const Footer = () => {
 					</div>
 					<div className="flex flex-col justify-center mx-auto items-center w-[30%]">
 						<h1>follow us</h1>
-						<ul className="flex">
+						<ul className="flex flex-col gap-3 m-4 p-4">
 							<li><AiFillFacebook /></li>
 							<li><AiFillInstagram /></li>
 							<li><AiFillTwitterCircle /></li>
