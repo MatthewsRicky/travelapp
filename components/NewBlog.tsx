@@ -22,9 +22,9 @@ const NewBlog = ({src, alt, title, description}: blogItems) => {
               {BLOG_SECTION.map((blog)=>(
                 <div key={blog.title} className="flexCenter flex-col md:padding-container mb-6">
                   <div className="flexStart gap-x-4 items-center">
-                    <span className="flex p-4 items-center">
+                    
                       <AiFillStar className="w-6 h-5 text-slate-900 drop-shadow-lg drop-shadow-sky-800 p-6 border-neutral-700-solid" />
-                    </span>
+                  
                     <h2 className="bold-20 py-3 my-4">{blog.title}</h2>
                   </div>
                   
