@@ -6,9 +6,9 @@ import { AiFillFacebook, AiFillInstagram, AiFillTwitterCircle } from "react-icon
 
 const Footer = () => {
 	return (
-		<footer className='flexCenter mb-0 bg-blue-950 text-slate-100'>
+		<footer className='flexCenter mb-0 bg-sky-300/50 text-slate-600'>
 			<section className='flex flex-col py-10 justify-center items-center mx-auto'>
-				<h1>Diani Travel guide</h1>
+				<h1 className="flex w-full gap-y-3 border-b-slate-400">Diani Travel guide</h1>
 				<div className='flex flex-row items-center mx-auto w-full'>
 					<div className="flex flex-col justify-center mx-auto items-center p-4 w-[30%]">
 						<h1 className="flex flex-col gap-y-3 m-4 p-4">About Us</h1>
