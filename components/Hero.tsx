@@ -7,13 +7,13 @@ const Hero = () => {
 		<section className='relative z-100 max-container flex flex-col justify-center items-center gap-6 mt-8 py-6'>
 			<div className='relative flex flex-col mt-16'>
 				<div className='justify-around w-[60%] items-center relative mx-auto flex z-20 sm:w-[85%] flex-col sm:flex-col gap-4 px-3 py-3 rounded-lg shadow-2xl backdrop-blur-sm'>
-					<div className='flex'>
+					<div className='flexCenter'>
 						<Image
 							src='/libosso_profile.webp'
 							alt='Libosso'
 							width={1000}
 							height={1000}
-							className='rounded-full drop-shadow-lg w-[50%] shadow-blue-950'
+							className='drop-shadow-lg w-[50%] shadow-blue-950'
 						/>
 					</div>
 					<div className='flex flex-col gap-4 w-full justify-center mx-auto mt-10 items-center sm:w-[40%]'>
