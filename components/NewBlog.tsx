@@ -25,14 +25,17 @@ const NewBlog = ({src, alt, title, description}: blogItems) => {
                   
                 
                   
-                  <Image src={blog.src} alt={blog.alt} height={500} width={500} className="rounded-md shadow-lg w-full my-4"/>
-                  <div className="flex flex-col sm:flex-row gap-2">
-                 <span>
+                  <Image src={blog.src} alt={blog.alt} height={500} width={500} className="rounded-md shadow-lg w-full max-w-[50%] my-4"/>
+                  <div className="flex flex-col md:flex-row gap-2">
+                    <div className="flex flex-col md:flex-row items-center gap-3">
+                    <span>
                  <AiFillStar className="w-6 h-5 text-slate-900 drop-shadow-lg drop-shadow-sky-800 p-6 border-neutral-700-solid" />
                   </span> 
                   
                   <h2 className="bold-20 py-3 my-4">{blog.title}</h2>
 
+                    </div>
+                 
                     </div>
                   <p className="tracking-wide px-12 text-md font-normal">{blog.description}</p>
                 </div>
