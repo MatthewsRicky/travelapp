@@ -6,7 +6,7 @@ const Hero = () => {
 	return (
 		<section className='relative z-100 max-container flex flex-col justify-center items-center gap-6 mt-8 py-6'>
 			<div className='relative flex flex-col mt-16'>
-				<div className='justify-around w-[60%] items-center relative mx-auto flex z-20 sm:w-[85%] flex-col sm:flex-row gap-4 px-3 py-3 rounded-lg shadow-2xl backdrop-blur-sm'>
+				<div className='justify-around w-[60%] items-center relative mx-auto flex z-20 sm:w-[95%] flex-col sm:flex-row gap-4 px-3 py-3 rounded-lg shadow-2xl backdrop-blur-sm'>
 					<div className='flexCenter'>
 						<Image
 							src='/libosso_profile.webp'
