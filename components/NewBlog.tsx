@@ -36,8 +36,9 @@ const NewBlog = ({src, alt, title, description}: blogItems) => {
 
                     </div>
                  
-                    </div>
+                    
                   <p className="tracking-wide px-12 text-md font-normal">{blog.description}</p>
+                  </div>
                 </div>
               ))}
           </div>
