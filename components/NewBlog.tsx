@@ -26,7 +26,7 @@ const NewBlog = ({src, alt, title, description}: blogItems) => {
                 
                   
                   <Image src={blog.src} alt={blog.alt} height={500} width={500} className="rounded-md shadow-lg w-full my-4"/>
-                  <div className="flex gap-2">
+                  <div className="flex flex-col sm:flex-row gap-2">
                  <span>
                  <AiFillStar className="w-6 h-5 text-slate-900 drop-shadow-lg drop-shadow-sky-800 p-6 border-neutral-700-solid" />
                   </span> 
