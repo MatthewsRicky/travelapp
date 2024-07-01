@@ -12,7 +12,7 @@ type blogItems = {
 } 
 const NewBlog = ({src, alt, title, description}: blogItems) => {
   return(
-        <div className="flex flex-col items-center justify-center mx-auto w-full bg-white text-slate-900 tracking-wide">
+        <div className="flex flex-col items-center justify-center mx-auto w-[95%] bg-white text-slate-900 tracking-wide">
           <div className="my-20">
             <h1 className="flex items-center justify-center w-full uppercase bold-20 border-b-1 border-solid my-4">blog</h1>
               {BLOG_SECTION.map((blog)=>(
