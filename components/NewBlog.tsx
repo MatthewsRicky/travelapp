@@ -2,7 +2,6 @@
 
 import { BLOG_SECTION } from "@/constants"
 import Image from "next/image"
-import { AiFillStar } from "react-icons/ai"
 
 type blogItems = {
   src: string;
