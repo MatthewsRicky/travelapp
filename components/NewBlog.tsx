@@ -21,7 +21,7 @@ const NewBlog = ({src, alt, title, description}: blogItems) => {
                   <div className="flex flex-col md:flex-row gap-2">
                     <div className="flex flex-col items-center gap-3"> 
                       <h2 className="medium-48 mx-auto flexCenter uppercase gap-2 text-center px-2 py-3 my-4">{blog.title}</h2>
-                      <p className="tracking-wide mx-2 my-2 py-4 px-12 medium-20 shadow-sm shadow-orange-900/30">{blog.description}</p>
+                      <p className="tracking-wide mx-2 py-4 px-12 medium-20 shadow-sm shadow-orange-900/30">{blog.description}</p>
                     </div>
                   </div>
                 </div>
