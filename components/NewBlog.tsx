@@ -20,8 +20,8 @@ const NewBlog = ({src, alt, title, description}: blogItems) => {
                   <Image src={blog.src} alt={blog.alt} height={500} width={500} className="rounded-md shadow-lg w-full max-w-[50%] my-4"/>
                   <div className="flex flex-col md:flex-row gap-2">
                     <div className="flex flex-col items-center gap-3"> 
-                      <h2 className="medium-48 mx-auto flexCenter uppercase shadow-sm shadow-orange-900/30 gap-2 text-center px-2 py-3 my-4">{blog.title}</h2>
-                      <p className="tracking-wide px-12 medium-20">{blog.description}</p>
+                      <h2 className="medium-48 mx-auto flexCenter uppercase gap-2 text-center px-2 py-3 my-4">{blog.title}</h2>
+                      <p className="tracking-wide px-12 medium-20 shadow-sm shadow-orange-900/30">{blog.description}</p>
                     </div>
                   </div>
                 </div>
