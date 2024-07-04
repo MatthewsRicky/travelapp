@@ -1,10 +1,11 @@
 import React from "react";
-import BlogCard from "./BlogCard";
+
+import NewBlog from "./NewBlog";
 
 const Blogs = () => {
 	return (
 		<section className="flexCenter">
-			<BlogCard src="src" alt="alt" title="title" description="description" />
+			<NewBlog src="src" alt="alt" title="title" description="description" />
 
 		</section>
 	);
