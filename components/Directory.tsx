@@ -1,8 +1,10 @@
 import React from "react";
-import NewBlog from "./NewBlog";
+
+
+import UploadModal from "@/modals/UploadModal";
 const Directory = () => {
 	return <div>
-		<NewBlog src="src" alt="alt" title="title" description="description" />
+		<UploadModal />
 	</div>;
 };
 
