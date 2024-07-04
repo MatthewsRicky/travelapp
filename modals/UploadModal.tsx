@@ -1,11 +1,14 @@
-import React from 'react'
+"use client"
 
-const UploadModal = () => {
+import React from 'react'
+import { BLOG_SECTION } from '@/constants'
+
+const UploadModal = ({title, description, src, alt}: any) => {
   return (
-    <div>
-      <input type="text" name="title" id="title" />
-      <input type="text" name="content" id="content" />
-      <input type="image" src="" alt="" />
+    <div className='flex gap-3 flex-col w-full mx-auto text-slate-100 bg-slate-900'>
+      <input type="text" name="title" id={title} />
+      <input type="text" name="description" id={description} />
+      <input type="image" src={src} alt={alt} />
     </div>
   )
 }
