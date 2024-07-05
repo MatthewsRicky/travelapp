@@ -40,11 +40,7 @@ const BlogCard = ({ src, alt, title, description }: blogItems) => {
 									</h1>
 									<h2 className='mb-4 p-4 text-center'>
 										{blog.description}
-										<Link
-											href='/'
-											className='text-orange-500 hover:underline'>
-											<p>...Continue Reading</p>
-										</Link>
+										
 									</h2>
 								</div>
 							</div>
