@@ -24,9 +24,10 @@ const NewBlog = ({src, alt, title, description}: blogItems) => {
                       <p className="tracking-wide mx-2 py-4 px-12 medium-20 shadow-sm shadow-orange-900/30">{blog.description}
                       <Link
 											href='/'
-											className='text-orange-500 hover:underline'>
+											className='text-sky-500 hover:underline'>
 											<p>...Continue Reading</p>
 										</Link>
+                    {/* this link causes a three error warning on the page. sort it */}
                       </p>
                     </div>
                   </div>
