@@ -20,7 +20,7 @@ const Footer = () => {
 					</div>
 					<div className="flex flex-col justify-center mx-auto items-center w-[30%]">
 						<h1>follow us</h1>
-						<ul className="flex flex-col gap-3 m-4 p-4">
+						<ul className="flex flex-col gap-3 py-3 px-4">
 							<li><AiFillFacebook /></li>
 							<li><AiFillInstagram /></li>
 							<li><AiFillTwitterCircle /></li>
