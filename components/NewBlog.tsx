@@ -3,6 +3,7 @@
 import { BLOG_SECTION } from "@/constants"
 import Image from "next/image"
 import Link from "next/link"
+import ContinueReadingLink from "./ContinueReadingLink"
 type blogItems = {
   src: string;
   alt: string;
@@ -22,7 +23,7 @@ const NewBlog = ({src, alt, title, description}: blogItems) => {
                     <div className="flex flex-col items-center gap-3"> 
                       <h2 className="medium-48 mx-auto flexCenter uppercase gap-2 text-center px-2 py-3 my-4">{blog.title}</h2>
                       <p className="tracking-wide mx-2 py-4 px-12 medium-20 shadow-sm shadow-orange-900/30">{blog.description}
-                     
+                      <ContinueReadingLink />
                     {/* this link causes a three error warning on the page. sort it */}
                       </p>
                     </div>
